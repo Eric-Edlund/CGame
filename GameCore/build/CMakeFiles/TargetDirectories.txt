@@ -1,0 +1,4 @@
+/home/eric/Projects/CGame/GameCore/build/CMakeFiles/rebuild_cache.dir
+/home/eric/Projects/CGame/GameCore/build/CMakeFiles/edit_cache.dir
+/home/eric/Projects/CGame/GameCore/build/CMakeFiles/GameCore.dir
+/home/eric/Projects/CGame/GameCore/build/CMakeFiles/GameCoreTest.dir
