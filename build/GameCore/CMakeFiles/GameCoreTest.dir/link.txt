@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/GameCoreTest.dir/main.cpp.o -o GameCoreTest  libGameCore.a 
