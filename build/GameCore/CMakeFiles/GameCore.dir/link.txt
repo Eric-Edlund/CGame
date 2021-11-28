@@ -1,2 +1,0 @@
-/usr/bin/ar qc libGameCore.a CMakeFiles/GameCore.dir/point.cpp.o CMakeFiles/GameCore.dir/edge.cpp.o CMakeFiles/GameCore.dir/fragment.cpp.o CMakeFiles/GameCore.dir/geometry.cpp.o CMakeFiles/GameCore.dir/line.cpp.o CMakeFiles/GameCore.dir/map.cpp.o CMakeFiles/GameCore.dir/mapmaker.cpp.o CMakeFiles/GameCore.dir/tile.cpp.o CMakeFiles/GameCore.dir/utilities.cpp.o CMakeFiles/GameCore.dir/pathfinder.cpp.o CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o
-/usr/bin/ranlib libGameCore.a
