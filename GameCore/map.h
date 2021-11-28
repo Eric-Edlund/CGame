@@ -8,7 +8,7 @@
 #include "tile.h"
 
 
-class Map : public Graph
+class Map : public Graph<Tile>
 {
 public:
     Map();
@@ -19,8 +19,8 @@ public:
     std::vector<Tile*> tiles = std::vector<Tile*>();
 
     //graph implementation
-    std::vector<Node*> neighbors(Node* tile);
-    std::vector<Node*> allNodes();
+    std::vector<Tile*> neighbors(Tile* tile);
+    std::vector<Tile*> allNodes();
     void clearSearchCache();
 
 
