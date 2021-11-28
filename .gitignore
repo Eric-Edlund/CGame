@@ -33,4 +33,5 @@
 *.app
 
 #build dir
-*/build
+build/*
+!build/build.xml
