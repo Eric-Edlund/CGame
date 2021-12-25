@@ -3,13 +3,16 @@
 
 #include <vector>
 #include "node.h"
+#include "tile.h"
 
-class Graph
+template <class T> class Graph
 {
 public:
     virtual std::vector<Node*> neighbors(Node* node);
     virtual std::vector<Node*> allNodes();
     virtual void clearSearchCache();
 };
+
+template Graph<Tile>;
 
 #endif // GRAPH_H

@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.2)
 project(Game)
 
+set(Qt6_DIR /usr/lib/QT/6.2.1/gcc_64/lib/cmake/Qt6)
+
 add_executable(${PROJECT_NAME} main.cpp)
 
 #imports in dependancy order

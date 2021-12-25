@@ -1,2 +1,0 @@
-/usr/bin/ar qc libGameGUI.a CMakeFiles/GameGUI.dir/GameGUI_autogen/mocs_compilation.cpp.o CMakeFiles/GameGUI.dir/main.cpp.o CMakeFiles/GameGUI.dir/mainwindow.cpp.o CMakeFiles/GameGUI.dir/mapdisplay.cpp.o
-/usr/bin/ranlib libGameGUI.a
