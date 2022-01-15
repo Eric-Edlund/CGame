@@ -1,0 +1,91 @@
+Small tile vars:
+- Finite space
+- Surface vegitation
+- Soil Quality
+- Soil content (clay, sand)
+- Core sample (stone, ores)
+
+How collection work?
+    All processes need a building.
+
+    Phases in each turn:
+    1. Extraction: Labor -> Material
+        The building interface considers how much labor can be taken and how much material it will produce.
+
+    2. Transport:
+        Materials have to be stored in buildings. A generative building can only make more if it has space.
+
+    3. Construction: Labor + Material -> Structure
+        Buildings need to be built in a tile with space.
+
+Economic Building Blocks:
+- Structures (buildings)
+- Transport (just people at first)
+- Commodities (labor, food)
+- People (with wants, needs and tax money)
+
+
+Companies and private ownership?
+Micro vs Macro economics?
+We will simulate:
+- Individual people
+
+Types of labor
+Types of storage
+
+Transport Vars:
+- Weight
+- Volume
+Density: in volume/weight (1)
+
+Transportation:
+- Transport Infrustructure (Roads, Canals, Tracks)
+- Transport Entities (Cars, Boats, Trains)
+    Need a space to end up being (Parking lots)
+    Require input to run (gas, labor)
+    Have a capacity (volume, weight, fluid/solid)
+    Require maintenence
+    Must be build
+    Are path finding entities
+    Use bandwidth
+
+Every car adds to the total road network's bandwidth (Total weight, volume and time)
+Efficiency of a road segment is a product of the road and the average operation cost of all the cars
+Cost to transport x goods:
+    1. Find x as a proportion of the badwidth
+    2. Charge that proportion of total fleet maintenence + operation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

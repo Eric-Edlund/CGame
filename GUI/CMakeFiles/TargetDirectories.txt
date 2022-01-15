@@ -1,0 +1,4 @@
+/home/eric/Projects/CGame/GUI/CMakeFiles/rebuild_cache.dir
+/home/eric/Projects/CGame/GUI/CMakeFiles/edit_cache.dir
+/home/eric/Projects/CGame/GUI/CMakeFiles/GameGUI.dir
+/home/eric/Projects/CGame/GUI/CMakeFiles/GameGUI_autogen.dir

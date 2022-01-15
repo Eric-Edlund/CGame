@@ -1,0 +1,26 @@
+Structure: House
+    Cost = 1 Wood, 5 Construction Labor
+    Capacity = 5 People
+    Construction = 1 Turn
+    Maintenence = 1/5 Wood, 1 Construction Labor
+
+Structure: Farm
+    Cost = 1 Wood, 3 Construction Labor
+    Capacity = 5 Storage
+    Construction = 1 turn
+    Trade: 1 Unskilled Labor -> 1 Food
+
+Commodity: Food
+    DecaysAfter = 2 turns
+    Density =
+
+Person:
+    EducatedIn =
+    Needs = 1 Food, home
+    Trade: __ Money -> 1 Labor
+
+Transport: Bucket
+    Material Cost = 1/5 Wood
+    Capacity:
+        Volume = 6
+        Weight = 10

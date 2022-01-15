@@ -1,0 +1,40 @@
+Fundamental Compnents:
+Structures - Take space and allow conversion between commodities
+Commodities - Bought and sold goods
+Transports - Move goods
+People - Not commodities
+
+Commodity:
+    Wood
+    Food
+    Clay
+
+Transports:
+    Car
+    Boat
+    Train
+
+    Can carry some commodities but not others
+    Charge a cost for moving things
+    have a maximum bandwidth per turn
+
+
+Structures:
+    Farm
+    Woodmill
+    Wood storage
+
+    Occupy space
+    Can store things
+
+
+
+People:
+    Can Transport
+    Produce labor
+    Live in structure
+    Can move
+    Have self interest
+
+Rules:
+- Transactions must be garanteed (transports can't over promise)

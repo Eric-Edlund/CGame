@@ -1,22 +1,15 @@
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 3.5)
 project(Game)
 
-set(Qt6_DIR /usr/lib/QT/6.2.1/gcc_64/lib/cmake/Qt6)
+#set(Qt6_DIR /usr/lib/QT/6.2.1/gcc_64/lib/cmake/Qt6)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-#imports in dependancy order
-add_subdirectory(GameCore)
-add_subdirectory(GameGUI)
+#tells cmake where to look for the other CMakeLists.txt files
+add_subdirectory(Core)
+add_subdirectory(GUI)
 
-
-#sets include paths for pathless include lines
-include_directories(PUBLIC GameCore)
-#target_include_directories(${PROJECT_NAME} PUBLIC GameCore)
-#target_include_directories(${PROJECT_NAME} PRIVATE GameGUI)
-
-#paths that have headerfiles you need
-target_link_directories(${PROJECT_NAME} PUBLIC GameCore GameGUI)
 
 #add libraries to Game executable
-target_link_libraries(${PROJECT_NAME} GameCore GameGUI)
+target_link_libraries(${PROJECT_NAME} GameCore)
+#target_link_libraries(${PROJECT_NAME} GameGUI)
