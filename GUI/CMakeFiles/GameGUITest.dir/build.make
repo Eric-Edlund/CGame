@@ -142,6 +142,8 @@ GUI/GameGUITest: GUI/CMakeFiles/GameGUITest.dir/mapdisplay.cpp.o
 GUI/GameGUITest: GUI/CMakeFiles/GameGUITest.dir/build.make
 GUI/GameGUITest: Core/libGameCore.a
 GUI/GameGUITest: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6OpenGLWidgets.so.6.2.2
+GUI/GameGUITest: Core/PathFinding/libPathFinder.a
+GUI/GameGUITest: Core/PerlinNoise/libPerlinNoise.a
 GUI/GameGUITest: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6Widgets.so.6.2.2
 GUI/GameGUITest: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6OpenGL.so.6.2.2
 GUI/GameGUITest: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6Gui.so.6.2.2

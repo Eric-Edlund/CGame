@@ -2,10 +2,9 @@
 #define PATHFINDER_H
 
 #include <vector>
-
+#include "../tile.h"
 #include "tileagent.h"
-#include "node.h"
-#include "map.h"
+#include "../map.h"
 #include <limits>
 #include <algorithm>
 
@@ -35,7 +34,7 @@ PathFinder::PathFinder(Map* m)
     map = m;
 }
 
-TilePath PathFinder::connectTiles(TileAgent* agent, Tile* start, Tile* target){
+TilePath PathFinder::connectTiles(TileAgent* agent, Tile* start, Tile* target){//TODO: Verify this works
     //https://www.programiz.com/dsa/dijkstra-algorithm
 
     map->clearSearchCache();

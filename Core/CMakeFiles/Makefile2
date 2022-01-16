@@ -65,30 +65,47 @@ CMAKE_BINARY_DIR = /home/eric/Projects/CGame/Core
 # The main recursive "all" target.
 all: CMakeFiles/GameCore.dir/all
 all: CMakeFiles/GameCoreTest.dir/all
+all: PathFinding/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: PathFinding/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/GameCore.dir/clean
 clean: CMakeFiles/GameCoreTest.dir/clean
+clean: PathFinding/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory PathFinding
+
+# Recursive "all" directory target.
+PathFinding/all: PathFinding/CMakeFiles/PathFinder.dir/all
+.PHONY : PathFinding/all
+
+# Recursive "preinstall" directory target.
+PathFinding/preinstall:
+.PHONY : PathFinding/preinstall
+
+# Recursive "clean" directory target.
+PathFinding/clean: PathFinding/CMakeFiles/PathFinder.dir/clean
+.PHONY : PathFinding/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/GameCore.dir
 
 # All Build rule for target.
-CMakeFiles/GameCore.dir/all:
+CMakeFiles/GameCore.dir/all: PathFinding/CMakeFiles/PathFinder.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameCore.dir/build.make CMakeFiles/GameCore.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameCore.dir/build.make CMakeFiles/GameCore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/Projects/CGame/Core/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target GameCore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/Projects/CGame/Core/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target GameCore"
 .PHONY : CMakeFiles/GameCore.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GameCore.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/Core/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/Core/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GameCore.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/Core/CMakeFiles 0
 .PHONY : CMakeFiles/GameCore.dir/rule
@@ -107,14 +124,15 @@ CMakeFiles/GameCore.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/GameCoreTest.dir/all: CMakeFiles/GameCore.dir/all
+CMakeFiles/GameCoreTest.dir/all: PathFinding/CMakeFiles/PathFinder.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameCoreTest.dir/build.make CMakeFiles/GameCoreTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameCoreTest.dir/build.make CMakeFiles/GameCoreTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/Projects/CGame/Core/CMakeFiles --progress-num=14,15 "Built target GameCoreTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/Projects/CGame/Core/CMakeFiles --progress-num=13,14 "Built target GameCoreTest"
 .PHONY : CMakeFiles/GameCoreTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GameCoreTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/Core/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/Core/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GameCoreTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/Core/CMakeFiles 0
 .PHONY : CMakeFiles/GameCoreTest.dir/rule
@@ -127,6 +145,32 @@ GameCoreTest: CMakeFiles/GameCoreTest.dir/rule
 CMakeFiles/GameCoreTest.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameCoreTest.dir/build.make CMakeFiles/GameCoreTest.dir/clean
 .PHONY : CMakeFiles/GameCoreTest.dir/clean
+
+#=============================================================================
+# Target rules for target PathFinding/CMakeFiles/PathFinder.dir
+
+# All Build rule for target.
+PathFinding/CMakeFiles/PathFinder.dir/all:
+	$(MAKE) $(MAKESILENT) -f PathFinding/CMakeFiles/PathFinder.dir/build.make PathFinding/CMakeFiles/PathFinder.dir/depend
+	$(MAKE) $(MAKESILENT) -f PathFinding/CMakeFiles/PathFinder.dir/build.make PathFinding/CMakeFiles/PathFinder.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/Projects/CGame/Core/CMakeFiles --progress-num=15,16 "Built target PathFinder"
+.PHONY : PathFinding/CMakeFiles/PathFinder.dir/all
+
+# Build rule for subdir invocation for target.
+PathFinding/CMakeFiles/PathFinder.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/Core/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PathFinding/CMakeFiles/PathFinder.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/Core/CMakeFiles 0
+.PHONY : PathFinding/CMakeFiles/PathFinder.dir/rule
+
+# Convenience name for target.
+PathFinder: PathFinding/CMakeFiles/PathFinder.dir/rule
+.PHONY : PathFinder
+
+# clean rule for target.
+PathFinding/CMakeFiles/PathFinder.dir/clean:
+	$(MAKE) $(MAKESILENT) -f PathFinding/CMakeFiles/PathFinder.dir/build.make PathFinding/CMakeFiles/PathFinder.dir/clean
+.PHONY : PathFinding/CMakeFiles/PathFinder.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

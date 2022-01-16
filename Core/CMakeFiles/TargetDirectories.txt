@@ -2,3 +2,6 @@
 /home/eric/Projects/CGame/Core/CMakeFiles/edit_cache.dir
 /home/eric/Projects/CGame/Core/CMakeFiles/GameCore.dir
 /home/eric/Projects/CGame/Core/CMakeFiles/GameCoreTest.dir
+/home/eric/Projects/CGame/Core/PathFinding/CMakeFiles/rebuild_cache.dir
+/home/eric/Projects/CGame/Core/PathFinding/CMakeFiles/edit_cache.dir
+/home/eric/Projects/CGame/Core/PathFinding/CMakeFiles/PathFinder.dir

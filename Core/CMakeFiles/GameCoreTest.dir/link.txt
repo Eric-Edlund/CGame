@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/GameCoreTest.dir/main.cpp.o -o GameCoreTest  libGameCore.a 
+/usr/bin/c++ -g CMakeFiles/GameCoreTest.dir/main.cpp.o -o GameCoreTest  libGameCore.a PathFinding/libPathFinder.a PerlinNoise/libPerlinNoise.a 

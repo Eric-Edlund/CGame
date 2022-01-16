@@ -1,8 +1,7 @@
 #ifndef AGENT_H
 #define AGENT_H
 #include <vector>
-#include "node.h"
-#include "tile.h"
+#include "../tile.h"
 
 class TileAgent
 {

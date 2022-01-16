@@ -95,6 +95,8 @@ Game: CMakeFiles/Game.dir/build.make
 Game: Core/libGameCore.a
 Game: GUI/libGameGUI.a
 Game: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6OpenGLWidgets.so.6.2.2
+Game: Core/PathFinding/libPathFinder.a
+Game: Core/PerlinNoise/libPerlinNoise.a
 Game: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6Widgets.so.6.2.2
 Game: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6OpenGL.so.6.2.2
 Game: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6Gui.so.6.2.2

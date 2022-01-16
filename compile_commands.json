@@ -6,68 +6,68 @@
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/point.cpp.o -c /home/eric/Projects/CGame/Core/point.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/point.cpp.o -c /home/eric/Projects/CGame/Core/point.cpp",
   "file": "/home/eric/Projects/CGame/Core/point.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/edge.cpp.o -c /home/eric/Projects/CGame/Core/edge.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/edge.cpp.o -c /home/eric/Projects/CGame/Core/edge.cpp",
   "file": "/home/eric/Projects/CGame/Core/edge.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/fragment.cpp.o -c /home/eric/Projects/CGame/Core/fragment.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/fragment.cpp.o -c /home/eric/Projects/CGame/Core/fragment.cpp",
   "file": "/home/eric/Projects/CGame/Core/fragment.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/geometry.cpp.o -c /home/eric/Projects/CGame/Core/geometry.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/geometry.cpp.o -c /home/eric/Projects/CGame/Core/geometry.cpp",
   "file": "/home/eric/Projects/CGame/Core/geometry.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/line.cpp.o -c /home/eric/Projects/CGame/Core/line.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/line.cpp.o -c /home/eric/Projects/CGame/Core/line.cpp",
   "file": "/home/eric/Projects/CGame/Core/line.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/map.cpp.o -c /home/eric/Projects/CGame/Core/map.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/map.cpp.o -c /home/eric/Projects/CGame/Core/map.cpp",
   "file": "/home/eric/Projects/CGame/Core/map.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/rectangle.cpp.o -c /home/eric/Projects/CGame/Core/rectangle.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/rectangle.cpp.o -c /home/eric/Projects/CGame/Core/rectangle.cpp",
   "file": "/home/eric/Projects/CGame/Core/rectangle.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/mapmaker.cpp.o -c /home/eric/Projects/CGame/Core/mapmaker.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/mapmaker.cpp.o -c /home/eric/Projects/CGame/Core/mapmaker.cpp",
   "file": "/home/eric/Projects/CGame/Core/mapmaker.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/tile.cpp.o -c /home/eric/Projects/CGame/Core/tile.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/tile.cpp.o -c /home/eric/Projects/CGame/Core/tile.cpp",
   "file": "/home/eric/Projects/CGame/Core/tile.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/utilities.cpp.o -c /home/eric/Projects/CGame/Core/utilities.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/utilities.cpp.o -c /home/eric/Projects/CGame/Core/utilities.cpp",
   "file": "/home/eric/Projects/CGame/Core/utilities.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/pathfinder.cpp.o -c /home/eric/Projects/CGame/Core/pathfinder.cpp",
-  "file": "/home/eric/Projects/CGame/Core/pathfinder.cpp"
-},
-{
-  "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o -c /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp",
-  "file": "/home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp"
-},
-{
-  "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCoreTest.dir/main.cpp.o -c /home/eric/Projects/CGame/Core/main.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCoreTest.dir/main.cpp.o -c /home/eric/Projects/CGame/Core/main.cpp",
   "file": "/home/eric/Projects/CGame/Core/main.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core/PathFinding",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/PathFinding/PathFinder -I/home/eric/Projects/CGame/Core/PathFinding/.. -g -o CMakeFiles/PathFinder.dir/pathfinder.cpp.o -c /home/eric/Projects/CGame/Core/PathFinding/pathfinder.cpp",
+  "file": "/home/eric/Projects/CGame/Core/PathFinding/pathfinder.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core/PerlinNoise",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o -c /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp",
+  "file": "/home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/GUI",
