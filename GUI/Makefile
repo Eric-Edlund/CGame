@@ -131,6 +131,20 @@ GameGUI/fast:
 .PHONY : GameGUI/fast
 
 # Convenience name for target.
+GUI/CMakeFiles/GameGUITest.dir/rule:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GUI/CMakeFiles/GameGUITest.dir/rule
+.PHONY : GUI/CMakeFiles/GameGUITest.dir/rule
+
+# Convenience name for target.
+GameGUITest: GUI/CMakeFiles/GameGUITest.dir/rule
+.PHONY : GameGUITest
+
+# fast build rule for target.
+GameGUITest/fast:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/build
+.PHONY : GameGUITest/fast
+
+# Convenience name for target.
 GUI/CMakeFiles/GameGUI_autogen.dir/rule:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GUI/CMakeFiles/GameGUI_autogen.dir/rule
 .PHONY : GUI/CMakeFiles/GameGUI_autogen.dir/rule
@@ -143,6 +157,44 @@ GameGUI_autogen: GUI/CMakeFiles/GameGUI_autogen.dir/rule
 GameGUI_autogen/fast:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI_autogen.dir/build.make GUI/CMakeFiles/GameGUI_autogen.dir/build
 .PHONY : GameGUI_autogen/fast
+
+# Convenience name for target.
+GUI/CMakeFiles/GameGUITest_autogen.dir/rule:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GUI/CMakeFiles/GameGUITest_autogen.dir/rule
+.PHONY : GUI/CMakeFiles/GameGUITest_autogen.dir/rule
+
+# Convenience name for target.
+GameGUITest_autogen: GUI/CMakeFiles/GameGUITest_autogen.dir/rule
+.PHONY : GameGUITest_autogen
+
+# fast build rule for target.
+GameGUITest_autogen/fast:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest_autogen.dir/build.make GUI/CMakeFiles/GameGUITest_autogen.dir/build
+.PHONY : GameGUITest_autogen/fast
+
+GameGUITest_autogen/mocs_compilation.o: GameGUITest_autogen/mocs_compilation.cpp.o
+.PHONY : GameGUITest_autogen/mocs_compilation.o
+
+# target to build an object file
+GameGUITest_autogen/mocs_compilation.cpp.o:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/GameGUITest_autogen/mocs_compilation.cpp.o
+.PHONY : GameGUITest_autogen/mocs_compilation.cpp.o
+
+GameGUITest_autogen/mocs_compilation.i: GameGUITest_autogen/mocs_compilation.cpp.i
+.PHONY : GameGUITest_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+GameGUITest_autogen/mocs_compilation.cpp.i:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/GameGUITest_autogen/mocs_compilation.cpp.i
+.PHONY : GameGUITest_autogen/mocs_compilation.cpp.i
+
+GameGUITest_autogen/mocs_compilation.s: GameGUITest_autogen/mocs_compilation.cpp.s
+.PHONY : GameGUITest_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+GameGUITest_autogen/mocs_compilation.cpp.s:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/GameGUITest_autogen/mocs_compilation.cpp.s
+.PHONY : GameGUITest_autogen/mocs_compilation.cpp.s
 
 GameGUI_autogen/mocs_compilation.o: GameGUI_autogen/mocs_compilation.cpp.o
 .PHONY : GameGUI_autogen/mocs_compilation.o
@@ -173,7 +225,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/main.cpp.o
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -181,7 +233,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/main.cpp.i
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -189,7 +241,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/main.cpp.s
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mainwindow.o: mainwindow.cpp.o
@@ -198,6 +250,7 @@ mainwindow.o: mainwindow.cpp.o
 # target to build an object file
 mainwindow.cpp.o:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.o
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/mainwindow.cpp.o
 .PHONY : mainwindow.cpp.o
 
 mainwindow.i: mainwindow.cpp.i
@@ -206,6 +259,7 @@ mainwindow.i: mainwindow.cpp.i
 # target to preprocess a source file
 mainwindow.cpp.i:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.i
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -214,7 +268,35 @@ mainwindow.s: mainwindow.cpp.s
 # target to generate assembly for a file
 mainwindow.cpp.s:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.s
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
+
+mapdisplay.o: mapdisplay.cpp.o
+.PHONY : mapdisplay.o
+
+# target to build an object file
+mapdisplay.cpp.o:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/mapdisplay.cpp.o
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/mapdisplay.cpp.o
+.PHONY : mapdisplay.cpp.o
+
+mapdisplay.i: mapdisplay.cpp.i
+.PHONY : mapdisplay.i
+
+# target to preprocess a source file
+mapdisplay.cpp.i:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/mapdisplay.cpp.i
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/mapdisplay.cpp.i
+.PHONY : mapdisplay.cpp.i
+
+mapdisplay.s: mapdisplay.cpp.s
+.PHONY : mapdisplay.s
+
+# target to generate assembly for a file
+mapdisplay.cpp.s:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/mapdisplay.cpp.s
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/mapdisplay.cpp.s
+.PHONY : mapdisplay.cpp.s
 
 # Help Target
 help:
@@ -224,8 +306,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... GameGUITest_autogen"
 	@echo "... GameGUI_autogen"
 	@echo "... GameGUI"
+	@echo "... GameGUITest"
+	@echo "... GameGUITest_autogen/mocs_compilation.o"
+	@echo "... GameGUITest_autogen/mocs_compilation.i"
+	@echo "... GameGUITest_autogen/mocs_compilation.s"
 	@echo "... GameGUI_autogen/mocs_compilation.o"
 	@echo "... GameGUI_autogen/mocs_compilation.i"
 	@echo "... GameGUI_autogen/mocs_compilation.s"
@@ -235,6 +322,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... mapdisplay.o"
+	@echo "... mapdisplay.i"
+	@echo "... mapdisplay.s"
 .PHONY : help
 
 

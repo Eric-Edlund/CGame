@@ -9,10 +9,7 @@
 class Rectangle
 {
 public:
-    Rectangle(Point* a, Point* b){
-        p = a;
-        p1 = b;
-    }
+    Rectangle(Point* a, Point* b);
     Rectangle(double x, double y, double x1, double y1){
         p = new Point(x, y);
         p1 = new Point(x1, y1);
@@ -87,7 +84,7 @@ public:
 
     bool intersects(Line l){
         for(Line b: borders())
-            if(l.intersects(&b));
+            if(l.intersects(&b))
                 return true;
         return false;
     }

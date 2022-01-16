@@ -4,11 +4,10 @@
 #include "fragment.h"
 #include "rectangle.h"
 #include <vector>
-#include "graph.h"
 #include "tile.h"
 
 
-class Map : public Graph<Tile>
+class Map
 {
 public:
     Map();

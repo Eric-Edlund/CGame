@@ -1,2 +1,3 @@
 # Hashes of file build rules.
-2fabaa1b61c6d9fcb58eedcc75393c41 GUI/CMakeFiles/GameGUI_autogen
+d3b826d2c697fc8b4705f21e1bdcbdd6 GUI/CMakeFiles/GameGUITest_autogen
+021535527f3d910d60c7385e5e14ab26 GUI/CMakeFiles/GameGUI_autogen

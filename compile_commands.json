@@ -1,0 +1,107 @@
+[
+{
+  "directory": "/home/eric/Projects/CGame",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/eric/Projects/CGame/Game -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/GUI -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtGui -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGLWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGL -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/Game.dir/main.cpp.o -c /home/eric/Projects/CGame/main.cpp",
+  "file": "/home/eric/Projects/CGame/main.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/point.cpp.o -c /home/eric/Projects/CGame/Core/point.cpp",
+  "file": "/home/eric/Projects/CGame/Core/point.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/edge.cpp.o -c /home/eric/Projects/CGame/Core/edge.cpp",
+  "file": "/home/eric/Projects/CGame/Core/edge.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/fragment.cpp.o -c /home/eric/Projects/CGame/Core/fragment.cpp",
+  "file": "/home/eric/Projects/CGame/Core/fragment.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/geometry.cpp.o -c /home/eric/Projects/CGame/Core/geometry.cpp",
+  "file": "/home/eric/Projects/CGame/Core/geometry.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/line.cpp.o -c /home/eric/Projects/CGame/Core/line.cpp",
+  "file": "/home/eric/Projects/CGame/Core/line.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/map.cpp.o -c /home/eric/Projects/CGame/Core/map.cpp",
+  "file": "/home/eric/Projects/CGame/Core/map.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/rectangle.cpp.o -c /home/eric/Projects/CGame/Core/rectangle.cpp",
+  "file": "/home/eric/Projects/CGame/Core/rectangle.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/mapmaker.cpp.o -c /home/eric/Projects/CGame/Core/mapmaker.cpp",
+  "file": "/home/eric/Projects/CGame/Core/mapmaker.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/tile.cpp.o -c /home/eric/Projects/CGame/Core/tile.cpp",
+  "file": "/home/eric/Projects/CGame/Core/tile.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/utilities.cpp.o -c /home/eric/Projects/CGame/Core/utilities.cpp",
+  "file": "/home/eric/Projects/CGame/Core/utilities.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/pathfinder.cpp.o -c /home/eric/Projects/CGame/Core/pathfinder.cpp",
+  "file": "/home/eric/Projects/CGame/Core/pathfinder.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o -c /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp",
+  "file": "/home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/GameCoreTest.dir/main.cpp.o -c /home/eric/Projects/CGame/Core/main.cpp",
+  "file": "/home/eric/Projects/CGame/Core/main.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/GUI",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/eric/Projects/CGame/GUI -I/home/eric/Projects/CGame/GUI/GameGUI_autogen/include -I/home/eric/Projects/CGame/GUI/GameGUI -I/home/eric/Projects/CGame/GUI/../Core -I/home/eric/Projects/CGame/GUI/GameGUITest -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtGui -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGLWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGL -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameGUI.dir/GameGUI_autogen/mocs_compilation.cpp.o -c /home/eric/Projects/CGame/GUI/GameGUI_autogen/mocs_compilation.cpp",
+  "file": "/home/eric/Projects/CGame/GUI/GameGUI_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/GUI",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/eric/Projects/CGame/GUI -I/home/eric/Projects/CGame/GUI/GameGUI_autogen/include -I/home/eric/Projects/CGame/GUI/GameGUI -I/home/eric/Projects/CGame/GUI/../Core -I/home/eric/Projects/CGame/GUI/GameGUITest -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtGui -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGLWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGL -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameGUI.dir/mainwindow.cpp.o -c /home/eric/Projects/CGame/GUI/mainwindow.cpp",
+  "file": "/home/eric/Projects/CGame/GUI/mainwindow.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/GUI",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/eric/Projects/CGame/GUI -I/home/eric/Projects/CGame/GUI/GameGUI_autogen/include -I/home/eric/Projects/CGame/GUI/GameGUI -I/home/eric/Projects/CGame/GUI/../Core -I/home/eric/Projects/CGame/GUI/GameGUITest -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtGui -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGLWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGL -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameGUI.dir/mapdisplay.cpp.o -c /home/eric/Projects/CGame/GUI/mapdisplay.cpp",
+  "file": "/home/eric/Projects/CGame/GUI/mapdisplay.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/GUI",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/eric/Projects/CGame/GUI -I/home/eric/Projects/CGame/GUI/GameGUITest_autogen/include -I/home/eric/Projects/CGame/GUI/GameGUI -I/home/eric/Projects/CGame/GUI/../Core -I/home/eric/Projects/CGame/GUI/GameGUITest -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtGui -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGLWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGL -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameGUITest.dir/GameGUITest_autogen/mocs_compilation.cpp.o -c /home/eric/Projects/CGame/GUI/GameGUITest_autogen/mocs_compilation.cpp",
+  "file": "/home/eric/Projects/CGame/GUI/GameGUITest_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/GUI",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/eric/Projects/CGame/GUI -I/home/eric/Projects/CGame/GUI/GameGUITest_autogen/include -I/home/eric/Projects/CGame/GUI/GameGUI -I/home/eric/Projects/CGame/GUI/../Core -I/home/eric/Projects/CGame/GUI/GameGUITest -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtGui -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGLWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGL -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameGUITest.dir/main.cpp.o -c /home/eric/Projects/CGame/GUI/main.cpp",
+  "file": "/home/eric/Projects/CGame/GUI/main.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/GUI",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/eric/Projects/CGame/GUI -I/home/eric/Projects/CGame/GUI/GameGUITest_autogen/include -I/home/eric/Projects/CGame/GUI/GameGUI -I/home/eric/Projects/CGame/GUI/../Core -I/home/eric/Projects/CGame/GUI/GameGUITest -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtGui -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGLWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGL -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameGUITest.dir/mainwindow.cpp.o -c /home/eric/Projects/CGame/GUI/mainwindow.cpp",
+  "file": "/home/eric/Projects/CGame/GUI/mainwindow.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/GUI",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/eric/Projects/CGame/GUI -I/home/eric/Projects/CGame/GUI/GameGUITest_autogen/include -I/home/eric/Projects/CGame/GUI/GameGUI -I/home/eric/Projects/CGame/GUI/../Core -I/home/eric/Projects/CGame/GUI/GameGUITest -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtGui -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGLWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGL -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameGUITest.dir/mapdisplay.cpp.o -c /home/eric/Projects/CGame/GUI/mapdisplay.cpp",
+  "file": "/home/eric/Projects/CGame/GUI/mapdisplay.cpp"
+}
+]

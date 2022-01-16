@@ -93,6 +93,14 @@ Game_EXTERNAL_OBJECTS =
 Game: CMakeFiles/Game.dir/main.cpp.o
 Game: CMakeFiles/Game.dir/build.make
 Game: Core/libGameCore.a
+Game: GUI/libGameGUI.a
+Game: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6OpenGLWidgets.so.6.2.2
+Game: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6Widgets.so.6.2.2
+Game: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6OpenGL.so.6.2.2
+Game: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6Gui.so.6.2.2
+Game: /usr/lib/QT/6.2.2/gcc_64/lib/libQt6Core.so.6.2.2
+Game: /usr/lib/x86_64-linux-gnu/libGLX.so
+Game: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 Game: CMakeFiles/Game.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)

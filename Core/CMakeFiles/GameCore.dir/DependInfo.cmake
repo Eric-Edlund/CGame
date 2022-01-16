@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/eric/Projects/CGame/Core/mapmaker.cpp" "Core/CMakeFiles/GameCore.dir/mapmaker.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/mapmaker.cpp.o.d"
   "/home/eric/Projects/CGame/Core/pathfinder.cpp" "Core/CMakeFiles/GameCore.dir/pathfinder.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/pathfinder.cpp.o.d"
   "/home/eric/Projects/CGame/Core/point.cpp" "Core/CMakeFiles/GameCore.dir/point.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/point.cpp.o.d"
+  "/home/eric/Projects/CGame/Core/rectangle.cpp" "Core/CMakeFiles/GameCore.dir/rectangle.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/rectangle.cpp.o.d"
   "/home/eric/Projects/CGame/Core/tile.cpp" "Core/CMakeFiles/GameCore.dir/tile.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/tile.cpp.o.d"
   "/home/eric/Projects/CGame/Core/utilities.cpp" "Core/CMakeFiles/GameCore.dir/utilities.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/utilities.cpp.o.d"
   )

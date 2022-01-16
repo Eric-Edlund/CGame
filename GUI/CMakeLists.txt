@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.5)
 
 project(GameGUI VERSION 0.1 LANGUAGES CXX)
 
+set (CMAKE_PREFIX_PATH /usr/lib/QT/6.2.2/gcc_64/lib/cmake)
+
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 set(CMAKE_AUTOUIC ON)
@@ -11,47 +13,36 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
-find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
-set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets OpenGLWidgets REQUIRED)
+find_package(Qt6 COMPONENTS Widgets OpenGLWidgets REQUIRED)
+
+
+
+set(SOURCES
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui
+    mapdisplay.h
+    mapdisplay.cpp
+
 )
 
-if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(GameGUI
-        MANUAL_FINALIZATION
-        ${PROJECT_SOURCES}
-    )
-# Define target properties for Android with Qt 6 as:
-#    set_property(TARGET GameGUI APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
-#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
-# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
-else()
-    if(ANDROID)
-        add_library(GameGUI SHARED
-            ${PROJECT_SOURCES}
-        )
-# Define properties for Android with Qt 5 after find_package() calls as:
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
-    else()
-        add_executable(GameGUI
-            ${PROJECT_SOURCES}
-        )
-    endif()
-endif()
+add_executable(GameGUITest main.cpp ${SOURCES})
 
-target_link_libraries(GameGUI PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
-set_target_properties(GameGUI PROPERTIES
-    MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
-    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
-    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+add_library(GameGUI STATIC
+        ${SOURCES}
 )
 
-if(QT_VERSION_MAJOR EQUAL 6)
-    qt_finalize_executable(GameGUI)
-endif()
+include_directories(GameGUI ../Core/)
+include_directories(GameGUITest ../Core/)
+
+target_link_libraries(GameGUI PRIVATE Qt6::Widgets)
+target_link_libraries(GameGUI PRIVATE Qt6::OpenGLWidgets)
+
+target_link_libraries(GameGUITest PRIVATE GameCore)
+target_link_libraries(GameGUITest PRIVATE Qt6::Widgets)
+target_link_libraries(GameGUITest PRIVATE Qt6::OpenGLWidgets)
+
+

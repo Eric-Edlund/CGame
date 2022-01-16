@@ -3,69 +3,70 @@
 
 #include <vector>
 
-#include "agent.h"
-#include "graph.h"
+#include "tileagent.h"
 #include "node.h"
+#include "map.h"
 #include <limits>
 #include <algorithm>
 
-template <class T> struct Path{
+struct TilePath
+{
 public:
-    std::vector<T*> steps = std::vector<T*>();
+    std::vector<Tile*> steps = std::vector<Tile*>();
     double totalCost = std::numeric_limits<double>::infinity();
     bool exists = false;
 };
 
-template <class T> class PathFinder
+class PathFinder //only works on Map class
 {
 public:
-    PathFinder(Graph* graph);
-    Graph* graph;
-    Path<T> connect(Agent* a, Node* start, Node* end);
+    PathFinder(Map* map);
+    Map* map;
+    TilePath connectTiles (TileAgent* a, Tile* start, Tile* end);
     void setCostLimit(double limit);
 
 private:
-    void explorePath(Agent* agent, Node* node);
+    void exploreTilePath (TileAgent* agent, Tile* node);
 };
 
 
-template<class T> PathFinder<T>::PathFinder(Graph* g)
+PathFinder::PathFinder(Map* m)
 {
-    graph = g;
+    map = m;
 }
 
-template<class T> Path<T> PathFinder<T>::connect(Agent* agent, Node* start, Node* target){
+TilePath PathFinder::connectTiles(TileAgent* agent, Tile* start, Tile* target){
     //https://www.programiz.com/dsa/dijkstra-algorithm
 
-    graph->clearSearchCache();
-    explorePath(agent, start);
+    map->clearSearchCache();
+    exploreTilePath(agent, start);
 
-    Path<T> path = Path<T>();
+    TilePath path = TilePath();
     if(target->cost == std::numeric_limits<double>::infinity()){
         path.exists = false;
         return path;
     }
     path.exists = true;
     path.totalCost = target->cost;
-    T* step = static_cast<T*>(target);
+    Tile* step = target;
     while(step != start){
         path.steps.push_back(step);
-        step = static_cast<T*>(step->prior);
+        step = step->prior;
     }
     std::reverse(path.steps.begin(), path.steps.end());
     return path;
 }
 
-template <class T> void PathFinder<T>::explorePath(Agent* agent, Node* node){
+void PathFinder::exploreTilePath(TileAgent* agent, Tile* node ){
     //recursive function - needs to end when:
     //- encounters node with cost <= current cost
 
-    for(Node* n: graph->neighbors(node)){
+    for(Tile* n: map->neighbors(node)){
 
-        if(!agent->canMakeStep(static_cast<T*>(node), static_cast<T*>(n))) return;
-        if(n->cost > node->cost + agent->stepCost(static_cast<T*>(node), static_cast<T*>(n))){// if we have found a cheaper path
-            n->cost = node->cost + agent->stepCost(static_cast<T*>(node), static_cast<T*>(n));
-            explorePath(agent, n);
+        if(!agent->canMakeStep(node, n)) return;
+        if(n->cost > node->cost + agent->stepCost(node, n)){// if we have found a cheaper path
+            n->cost = node->cost + agent->stepCost(node, n);
+            exploreTilePath(agent, n);
         }
     }
 }

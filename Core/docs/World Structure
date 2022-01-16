@@ -1,0 +1,6 @@
+The Map is made up of Tiles
+
+Tiles extend Fragments, Node
+
+Fragments are geometric primatives
+Nodes are pathfinding units. The node allows us not to use templated pathfinding.

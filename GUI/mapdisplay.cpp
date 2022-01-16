@@ -12,6 +12,7 @@
 #include <QDragMoveEvent>
 #include <QMouseEvent>
 #include <cmath>
+
 #define tiles map->tiles
 
 
@@ -156,7 +157,8 @@ Point MapDisplay::focus(){
     return viewBox.getCenter();
 }
 
-void MapDisplay::enterEvent(QEnterEvent *event){
+void MapDisplay::enterEvent (QEnterEvent* event )
+{
 //std::cout << "Entered" << std::endl;
 }
 
@@ -168,26 +170,26 @@ void MapDisplay::leaveEvent(QEvent *event){
 
 void MapDisplay::mousePressEvent(QMouseEvent *event){
     lastPress = event->pos();
-    canvasToMap(event->position());
+    canvasToMap(event->pos());
     //std::cout << "Mouse Pressed" << std::endl;
     event->accept();
 }
 
 void MapDisplay::mouseMoveEvent(QMouseEvent *event){
     if(event->buttons() == Qt::LeftButton){
-        double xChange = canvasToMap(lastPress.x() - event->position().x());
-        double yChange = event->position().y() - lastPress.y();
+        double xChange = canvasToMap(lastPress.x() - event->pos().x());
+        double yChange = event->pos().y() - lastPress.y();
         yChange  = canvasToMap(yChange);
 
         setFocus(Point(focus().x + xChange, focus().y + yChange));//pick up here
-        lastPress = event->position();
+        lastPress = event->pos();
         updateMapCache();
 
     }else{//mouse isn't being dragged
         highlighted = nullptr;
         for(Tile* f: tiles){
 
-            if(f->contains(canvasToMap(event->position()))){
+            if(f->contains(canvasToMap(event->pos()))){
                 highlighted = f;
                 break;
             }

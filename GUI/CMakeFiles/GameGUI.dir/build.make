@@ -83,24 +83,10 @@ GUI/CMakeFiles/GameGUI.dir/GameGUI_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameGUI.dir/GameGUI_autogen/mocs_compilation.cpp.s"
 	cd /home/eric/Projects/CGame/GUI && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/Projects/CGame/GUI/GameGUI_autogen/mocs_compilation.cpp -o CMakeFiles/GameGUI.dir/GameGUI_autogen/mocs_compilation.cpp.s
 
-GUI/CMakeFiles/GameGUI.dir/main.cpp.o: GUI/CMakeFiles/GameGUI.dir/flags.make
-GUI/CMakeFiles/GameGUI.dir/main.cpp.o: GUI/main.cpp
-GUI/CMakeFiles/GameGUI.dir/main.cpp.o: GUI/CMakeFiles/GameGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object GUI/CMakeFiles/GameGUI.dir/main.cpp.o"
-	cd /home/eric/Projects/CGame/GUI && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GUI/CMakeFiles/GameGUI.dir/main.cpp.o -MF CMakeFiles/GameGUI.dir/main.cpp.o.d -o CMakeFiles/GameGUI.dir/main.cpp.o -c /home/eric/Projects/CGame/GUI/main.cpp
-
-GUI/CMakeFiles/GameGUI.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameGUI.dir/main.cpp.i"
-	cd /home/eric/Projects/CGame/GUI && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/Projects/CGame/GUI/main.cpp > CMakeFiles/GameGUI.dir/main.cpp.i
-
-GUI/CMakeFiles/GameGUI.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameGUI.dir/main.cpp.s"
-	cd /home/eric/Projects/CGame/GUI && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/Projects/CGame/GUI/main.cpp -o CMakeFiles/GameGUI.dir/main.cpp.s
-
 GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.o: GUI/CMakeFiles/GameGUI.dir/flags.make
 GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.o: GUI/mainwindow.cpp
 GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.o: GUI/CMakeFiles/GameGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.o"
 	cd /home/eric/Projects/CGame/GUI && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.o -MF CMakeFiles/GameGUI.dir/mainwindow.cpp.o.d -o CMakeFiles/GameGUI.dir/mainwindow.cpp.o -c /home/eric/Projects/CGame/GUI/mainwindow.cpp
 
 GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.i: cmake_force
@@ -111,28 +97,40 @@ GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameGUI.dir/mainwindow.cpp.s"
 	cd /home/eric/Projects/CGame/GUI && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/Projects/CGame/GUI/mainwindow.cpp -o CMakeFiles/GameGUI.dir/mainwindow.cpp.s
 
+GUI/CMakeFiles/GameGUI.dir/mapdisplay.cpp.o: GUI/CMakeFiles/GameGUI.dir/flags.make
+GUI/CMakeFiles/GameGUI.dir/mapdisplay.cpp.o: GUI/mapdisplay.cpp
+GUI/CMakeFiles/GameGUI.dir/mapdisplay.cpp.o: GUI/CMakeFiles/GameGUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object GUI/CMakeFiles/GameGUI.dir/mapdisplay.cpp.o"
+	cd /home/eric/Projects/CGame/GUI && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GUI/CMakeFiles/GameGUI.dir/mapdisplay.cpp.o -MF CMakeFiles/GameGUI.dir/mapdisplay.cpp.o.d -o CMakeFiles/GameGUI.dir/mapdisplay.cpp.o -c /home/eric/Projects/CGame/GUI/mapdisplay.cpp
+
+GUI/CMakeFiles/GameGUI.dir/mapdisplay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameGUI.dir/mapdisplay.cpp.i"
+	cd /home/eric/Projects/CGame/GUI && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/Projects/CGame/GUI/mapdisplay.cpp > CMakeFiles/GameGUI.dir/mapdisplay.cpp.i
+
+GUI/CMakeFiles/GameGUI.dir/mapdisplay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameGUI.dir/mapdisplay.cpp.s"
+	cd /home/eric/Projects/CGame/GUI && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/Projects/CGame/GUI/mapdisplay.cpp -o CMakeFiles/GameGUI.dir/mapdisplay.cpp.s
+
 # Object files for target GameGUI
 GameGUI_OBJECTS = \
 "CMakeFiles/GameGUI.dir/GameGUI_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/GameGUI.dir/main.cpp.o" \
-"CMakeFiles/GameGUI.dir/mainwindow.cpp.o"
+"CMakeFiles/GameGUI.dir/mainwindow.cpp.o" \
+"CMakeFiles/GameGUI.dir/mapdisplay.cpp.o"
 
 # External object files for target GameGUI
 GameGUI_EXTERNAL_OBJECTS =
 
-GUI/GameGUI: GUI/CMakeFiles/GameGUI.dir/GameGUI_autogen/mocs_compilation.cpp.o
-GUI/GameGUI: GUI/CMakeFiles/GameGUI.dir/main.cpp.o
-GUI/GameGUI: GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.o
-GUI/GameGUI: GUI/CMakeFiles/GameGUI.dir/build.make
-GUI/GameGUI: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
-GUI/GameGUI: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
-GUI/GameGUI: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
-GUI/GameGUI: GUI/CMakeFiles/GameGUI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable GameGUI"
+GUI/libGameGUI.a: GUI/CMakeFiles/GameGUI.dir/GameGUI_autogen/mocs_compilation.cpp.o
+GUI/libGameGUI.a: GUI/CMakeFiles/GameGUI.dir/mainwindow.cpp.o
+GUI/libGameGUI.a: GUI/CMakeFiles/GameGUI.dir/mapdisplay.cpp.o
+GUI/libGameGUI.a: GUI/CMakeFiles/GameGUI.dir/build.make
+GUI/libGameGUI.a: GUI/CMakeFiles/GameGUI.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libGameGUI.a"
+	cd /home/eric/Projects/CGame/GUI && $(CMAKE_COMMAND) -P CMakeFiles/GameGUI.dir/cmake_clean_target.cmake
 	cd /home/eric/Projects/CGame/GUI && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameGUI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-GUI/CMakeFiles/GameGUI.dir/build: GUI/GameGUI
+GUI/CMakeFiles/GameGUI.dir/build: GUI/libGameGUI.a
 .PHONY : GUI/CMakeFiles/GameGUI.dir/build
 
 GUI/CMakeFiles/GameGUI.dir/clean:

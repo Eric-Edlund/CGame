@@ -5,8 +5,9 @@
 #include "map.h"
 #include "mapmaker.h"
 
-int main(int argc, char *argv[])
-{
+
+int main(int argc, char *argv[]){
+
     MapMaker m = MapMaker();
     m.dimensions = Rectangle(0,0,40,40);
     Map* map = m.make(1);

@@ -7,6 +7,9 @@
 #include "map.h"
 #include "point.h"
 #include <QPointF>
+#include <QEnterEvent>
+#include <QMouseEvent>
+#include <QDragMoveEvent>
 
 
 class MapDisplay : public QOpenGLWidget

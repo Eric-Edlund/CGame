@@ -8,6 +8,7 @@ public:
     Node* prior = nullptr;
     double cost = std::numeric_limits<double>::infinity();
     const double infinity = std::numeric_limits<double>::infinity();
+
 };
 
 

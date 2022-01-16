@@ -48,16 +48,16 @@ void Map::fluffBounds(double d){
     bounds.p1->y += d;
 }
 
-std::vector<Node*> Map::neighbors(Node* tile){
-    std::vector<Node*> nodes = std::vector<Node*>();
+std::vector<Tile*> Map::neighbors(Tile* tile){
+    std::vector<Tile*> nodes = std::vector<Tile*>();
     for(Tile* t: static_cast<Tile*>(tile)->getNeighbors())
         nodes.push_back(t);
 
     return nodes;
 }
 
-std::vector<Node*> Map::allNodes(){
-    std::vector<Node*> nodes = std::vector<Node*>();
+std::vector<Tile*> Map::allNodes(){
+    std::vector<Tile*> nodes = std::vector<Tile*>();
     for(Tile* t: tiles)
         nodes.push_back(t);
 
@@ -65,7 +65,7 @@ std::vector<Node*> Map::allNodes(){
 }
 
 void Map::clearSearchCache(){
-    for(Node* t: allNodes()){
+    for(Tile* t: allNodes()){
         t->prior = nullptr;
         t->cost = t->infinity;
     }

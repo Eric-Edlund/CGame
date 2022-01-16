@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameCore.dir/pathfinder.cpp.o.d"
   "CMakeFiles/GameCore.dir/point.cpp.o"
   "CMakeFiles/GameCore.dir/point.cpp.o.d"
+  "CMakeFiles/GameCore.dir/rectangle.cpp.o"
+  "CMakeFiles/GameCore.dir/rectangle.cpp.o.d"
   "CMakeFiles/GameCore.dir/tile.cpp.o"
   "CMakeFiles/GameCore.dir/tile.cpp.o.d"
   "CMakeFiles/GameCore.dir/utilities.cpp.o"

@@ -14,15 +14,15 @@ add_library(GameCore STATIC
     map.h
     map.cpp
     rectangle.h
+    rectangle.cpp
     mapmaker.h mapmaker.cpp
     tile.h tile.cpp
     utilities.cpp
     utilities.h
-    agent.h
+    tileagent.h
     pathfinder.h pathfinder.cpp
 
     node.h
-    graph.h
 
 
     PerlinNoise/PerlinNoise.h

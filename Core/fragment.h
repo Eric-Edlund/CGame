@@ -23,7 +23,7 @@ public:
     double getArea();
     std::vector<Point*> getVerticies();
     Point center();
-    void updateNeighbors();//called by map maker, sloppy fix
+    void updateNeighbors();//called by map maker to link neighbors, sloppy fix
 
 
 protected:

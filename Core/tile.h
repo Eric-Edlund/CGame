@@ -1,10 +1,11 @@
 #ifndef TILE_H
 #define TILE_H
 
+#include <limits>
 #include "fragment.h"
 #include "node.h"
 
-class Tile : public Fragment, public Node
+class Tile : public Fragment
 {
 public:
     Tile();
@@ -15,6 +16,11 @@ public:
     const static short grass = 0;
     const static short mountain = 1;
     const static short forest = 2;
+
+    //pathfinding stuff
+    Tile* prior = nullptr;
+    double cost = std::numeric_limits<double>::infinity();
+    const double infinity = std::numeric_limits<double>::infinity();
 
 
 

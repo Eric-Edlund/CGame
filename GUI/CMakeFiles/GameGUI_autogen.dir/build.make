@@ -68,7 +68,7 @@ include GUI/CMakeFiles/GameGUI_autogen.dir/progress.make
 
 GUI/CMakeFiles/GameGUI_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target GameGUI"
-	cd /home/eric/Projects/CGame/GUI && /usr/bin/cmake -E cmake_autogen /home/eric/Projects/CGame/GUI/CMakeFiles/GameGUI_autogen.dir/AutogenInfo.json ""
+	cd /home/eric/Projects/CGame/GUI && /usr/bin/cmake -E cmake_autogen /home/eric/Projects/CGame/GUI/CMakeFiles/GameGUI_autogen.dir/AutogenInfo.json Debug
 
 GameGUI_autogen: GUI/CMakeFiles/GameGUI_autogen
 GameGUI_autogen: GUI/CMakeFiles/GameGUI_autogen.dir/build.make

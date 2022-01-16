@@ -384,6 +384,30 @@ point.cpp.s:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/point.cpp.s
 .PHONY : point.cpp.s
 
+rectangle.o: rectangle.cpp.o
+.PHONY : rectangle.o
+
+# target to build an object file
+rectangle.cpp.o:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/rectangle.cpp.o
+.PHONY : rectangle.cpp.o
+
+rectangle.i: rectangle.cpp.i
+.PHONY : rectangle.i
+
+# target to preprocess a source file
+rectangle.cpp.i:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/rectangle.cpp.i
+.PHONY : rectangle.cpp.i
+
+rectangle.s: rectangle.cpp.s
+.PHONY : rectangle.s
+
+# target to generate assembly for a file
+rectangle.cpp.s:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/rectangle.cpp.s
+.PHONY : rectangle.cpp.s
+
 tile.o: tile.cpp.o
 .PHONY : tile.o
 
@@ -472,6 +496,9 @@ help:
 	@echo "... point.o"
 	@echo "... point.i"
 	@echo "... point.s"
+	@echo "... rectangle.o"
+	@echo "... rectangle.i"
+	@echo "... rectangle.s"
 	@echo "... tile.o"
 	@echo "... tile.i"
 	@echo "... tile.s"

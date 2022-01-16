@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/Projects/CGame/GameCore
+CMAKE_SOURCE_DIR = /home/eric/Projects/CGame/Core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/Projects/CGame/GameCore
+CMAKE_BINARY_DIR = /home/eric/Projects/CGame/Core
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/GameCoreTest.dir/clean
 CMakeFiles/GameCore.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameCore.dir/build.make CMakeFiles/GameCore.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameCore.dir/build.make CMakeFiles/GameCore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/Projects/CGame/GameCore/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target GameCore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/Projects/CGame/Core/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target GameCore"
 .PHONY : CMakeFiles/GameCore.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GameCore.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/GameCore/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/Core/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GameCore.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/GameCore/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/Core/CMakeFiles 0
 .PHONY : CMakeFiles/GameCore.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/GameCore.dir/clean:
 CMakeFiles/GameCoreTest.dir/all: CMakeFiles/GameCore.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameCoreTest.dir/build.make CMakeFiles/GameCoreTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameCoreTest.dir/build.make CMakeFiles/GameCoreTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/Projects/CGame/GameCore/CMakeFiles --progress-num=13,14 "Built target GameCoreTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/Projects/CGame/Core/CMakeFiles --progress-num=14,15 "Built target GameCoreTest"
 .PHONY : CMakeFiles/GameCoreTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GameCoreTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/GameCore/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/Core/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GameCoreTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/GameCore/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/Projects/CGame/Core/CMakeFiles 0
 .PHONY : CMakeFiles/GameCoreTest.dir/rule
 
 # Convenience name for target.
