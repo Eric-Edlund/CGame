@@ -38,7 +38,7 @@ Kill Before Executing Again=4194304
 Project Target=CGame,Game
 Use External Terminal=false
 Working Directory=
-isExecutable=false
+isExecutable=true
 
 [Project]
 VersionControlSupport=kdevgit

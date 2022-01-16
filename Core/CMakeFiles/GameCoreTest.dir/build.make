@@ -93,6 +93,8 @@ GameCoreTest_EXTERNAL_OBJECTS =
 Core/GameCoreTest: Core/CMakeFiles/GameCoreTest.dir/main.cpp.o
 Core/GameCoreTest: Core/CMakeFiles/GameCoreTest.dir/build.make
 Core/GameCoreTest: Core/libGameCore.a
+Core/GameCoreTest: Core/PathFinding/libPathFinder.a
+Core/GameCoreTest: Core/PerlinNoise/libPerlinNoise.a
 Core/GameCoreTest: Core/CMakeFiles/GameCoreTest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GameCoreTest"
 	cd /home/eric/Projects/CGame/Core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameCoreTest.dir/link.txt --verbose=$(VERBOSE)

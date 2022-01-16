@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o"
-  "CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o.d"
   "CMakeFiles/GameCore.dir/edge.cpp.o"
   "CMakeFiles/GameCore.dir/edge.cpp.o.d"
   "CMakeFiles/GameCore.dir/fragment.cpp.o"
@@ -13,8 +11,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameCore.dir/map.cpp.o.d"
   "CMakeFiles/GameCore.dir/mapmaker.cpp.o"
   "CMakeFiles/GameCore.dir/mapmaker.cpp.o.d"
-  "CMakeFiles/GameCore.dir/pathfinder.cpp.o"
-  "CMakeFiles/GameCore.dir/pathfinder.cpp.o.d"
   "CMakeFiles/GameCore.dir/point.cpp.o"
   "CMakeFiles/GameCore.dir/point.cpp.o.d"
   "CMakeFiles/GameCore.dir/rectangle.cpp.o"

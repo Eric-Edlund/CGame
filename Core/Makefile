@@ -144,30 +144,6 @@ GameCoreTest/fast:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCoreTest.dir/build.make Core/CMakeFiles/GameCoreTest.dir/build
 .PHONY : GameCoreTest/fast
 
-PerlinNoise/PerlinNoise.o: PerlinNoise/PerlinNoise.cpp.o
-.PHONY : PerlinNoise/PerlinNoise.o
-
-# target to build an object file
-PerlinNoise/PerlinNoise.cpp.o:
-	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o
-.PHONY : PerlinNoise/PerlinNoise.cpp.o
-
-PerlinNoise/PerlinNoise.i: PerlinNoise/PerlinNoise.cpp.i
-.PHONY : PerlinNoise/PerlinNoise.i
-
-# target to preprocess a source file
-PerlinNoise/PerlinNoise.cpp.i:
-	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.i
-.PHONY : PerlinNoise/PerlinNoise.cpp.i
-
-PerlinNoise/PerlinNoise.s: PerlinNoise/PerlinNoise.cpp.s
-.PHONY : PerlinNoise/PerlinNoise.s
-
-# target to generate assembly for a file
-PerlinNoise/PerlinNoise.cpp.s:
-	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.s
-.PHONY : PerlinNoise/PerlinNoise.cpp.s
-
 edge.o: edge.cpp.o
 .PHONY : edge.o
 
@@ -336,30 +312,6 @@ mapmaker.cpp.s:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/mapmaker.cpp.s
 .PHONY : mapmaker.cpp.s
 
-pathfinder.o: pathfinder.cpp.o
-.PHONY : pathfinder.o
-
-# target to build an object file
-pathfinder.cpp.o:
-	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/pathfinder.cpp.o
-.PHONY : pathfinder.cpp.o
-
-pathfinder.i: pathfinder.cpp.i
-.PHONY : pathfinder.i
-
-# target to preprocess a source file
-pathfinder.cpp.i:
-	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/pathfinder.cpp.i
-.PHONY : pathfinder.cpp.i
-
-pathfinder.s: pathfinder.cpp.s
-.PHONY : pathfinder.s
-
-# target to generate assembly for a file
-pathfinder.cpp.s:
-	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/pathfinder.cpp.s
-.PHONY : pathfinder.cpp.s
-
 point.o: point.cpp.o
 .PHONY : point.o
 
@@ -466,9 +418,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... GameCore"
 	@echo "... GameCoreTest"
-	@echo "... PerlinNoise/PerlinNoise.o"
-	@echo "... PerlinNoise/PerlinNoise.i"
-	@echo "... PerlinNoise/PerlinNoise.s"
 	@echo "... edge.o"
 	@echo "... edge.i"
 	@echo "... edge.s"
@@ -490,9 +439,6 @@ help:
 	@echo "... mapmaker.o"
 	@echo "... mapmaker.i"
 	@echo "... mapmaker.s"
-	@echo "... pathfinder.o"
-	@echo "... pathfinder.i"
-	@echo "... pathfinder.s"
 	@echo "... point.o"
 	@echo "... point.i"
 	@echo "... point.s"

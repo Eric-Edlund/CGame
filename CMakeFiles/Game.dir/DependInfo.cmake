@@ -15,6 +15,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/eric/Projects/CGame/Core/CMakeFiles/GameCore.dir/DependInfo.cmake"
   "/home/eric/Projects/CGame/GUI/CMakeFiles/GameGUI.dir/DependInfo.cmake"
+  "/home/eric/Projects/CGame/Core/PathFinding/CMakeFiles/PathFinder.dir/DependInfo.cmake"
+  "/home/eric/Projects/CGame/Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

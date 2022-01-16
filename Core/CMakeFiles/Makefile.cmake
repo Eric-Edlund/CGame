@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.21.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.21.3/CMakeSystem.cmake"
   "CMakeLists.txt"
+  "PathFinding/CMakeLists.txt"
   "/usr/share/cmake-3.21/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake-3.21/Modules/CMakeGenericSystem.cmake"
@@ -35,10 +36,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "PathFinding/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/GameCore.dir/DependInfo.cmake"
   "CMakeFiles/GameCoreTest.dir/DependInfo.cmake"
+  "PathFinding/CMakeFiles/PathFinder.dir/DependInfo.cmake"
   )

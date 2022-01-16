@@ -19,13 +19,19 @@ add_library(GameCore STATIC
     tile.h tile.cpp
     utilities.cpp
     utilities.h
-    tileagent.h
-    pathfinder.h pathfinder.cpp
 
-    node.h
-
-
-    PerlinNoise/PerlinNoise.h
-    PerlinNoise/PerlinNoise.cpp
     )
+
+add_subdirectory(PathFinding)
+add_subdirectory(PerlinNoise)
+
+include_directories(GameCore
+    PathFinding/
+    PerlinNoise/)
+
+target_link_libraries(GameCore PRIVATE
+    PathFinder
+    PerlinNoise
+    )
+
 

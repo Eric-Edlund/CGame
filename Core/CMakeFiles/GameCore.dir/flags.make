@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise
 
 CXX_FLAGS = -g
 

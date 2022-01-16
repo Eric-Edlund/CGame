@@ -209,34 +209,6 @@ Core/CMakeFiles/GameCore.dir/utilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameCore.dir/utilities.cpp.s"
 	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/Projects/CGame/Core/utilities.cpp -o CMakeFiles/GameCore.dir/utilities.cpp.s
 
-Core/CMakeFiles/GameCore.dir/pathfinder.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
-Core/CMakeFiles/GameCore.dir/pathfinder.cpp.o: Core/pathfinder.cpp
-Core/CMakeFiles/GameCore.dir/pathfinder.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Core/CMakeFiles/GameCore.dir/pathfinder.cpp.o"
-	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/pathfinder.cpp.o -MF CMakeFiles/GameCore.dir/pathfinder.cpp.o.d -o CMakeFiles/GameCore.dir/pathfinder.cpp.o -c /home/eric/Projects/CGame/Core/pathfinder.cpp
-
-Core/CMakeFiles/GameCore.dir/pathfinder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameCore.dir/pathfinder.cpp.i"
-	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/Projects/CGame/Core/pathfinder.cpp > CMakeFiles/GameCore.dir/pathfinder.cpp.i
-
-Core/CMakeFiles/GameCore.dir/pathfinder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameCore.dir/pathfinder.cpp.s"
-	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/Projects/CGame/Core/pathfinder.cpp -o CMakeFiles/GameCore.dir/pathfinder.cpp.s
-
-Core/CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
-Core/CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o: Core/PerlinNoise/PerlinNoise.cpp
-Core/CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Core/CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o"
-	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o -MF CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o.d -o CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o -c /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp
-
-Core/CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.i"
-	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp > CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.i
-
-Core/CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.s"
-	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp -o CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.s
-
 # Object files for target GameCore
 GameCore_OBJECTS = \
 "CMakeFiles/GameCore.dir/point.cpp.o" \
@@ -248,9 +220,7 @@ GameCore_OBJECTS = \
 "CMakeFiles/GameCore.dir/rectangle.cpp.o" \
 "CMakeFiles/GameCore.dir/mapmaker.cpp.o" \
 "CMakeFiles/GameCore.dir/tile.cpp.o" \
-"CMakeFiles/GameCore.dir/utilities.cpp.o" \
-"CMakeFiles/GameCore.dir/pathfinder.cpp.o" \
-"CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o"
+"CMakeFiles/GameCore.dir/utilities.cpp.o"
 
 # External object files for target GameCore
 GameCore_EXTERNAL_OBJECTS =
@@ -265,11 +235,9 @@ Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/rectangle.cpp.o
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/mapmaker.cpp.o
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/tile.cpp.o
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/utilities.cpp.o
-Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/pathfinder.cpp.o
-Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/PerlinNoise/PerlinNoise.cpp.o
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/build.make
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libGameCore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libGameCore.a"
 	cd /home/eric/Projects/CGame/Core && $(CMAKE_COMMAND) -P CMakeFiles/GameCore.dir/cmake_clean_target.cmake
 	cd /home/eric/Projects/CGame/Core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameCore.dir/link.txt --verbose=$(VERBOSE)
 

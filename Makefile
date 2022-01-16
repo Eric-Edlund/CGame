@@ -156,6 +156,32 @@ GameCoreTest/fast:
 .PHONY : GameCoreTest/fast
 
 #=============================================================================
+# Target rules for targets named PathFinder
+
+# Build rule for target.
+PathFinder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PathFinder
+.PHONY : PathFinder
+
+# fast build rule for target.
+PathFinder/fast:
+	$(MAKE) $(MAKESILENT) -f Core/PathFinding/CMakeFiles/PathFinder.dir/build.make Core/PathFinding/CMakeFiles/PathFinder.dir/build
+.PHONY : PathFinder/fast
+
+#=============================================================================
+# Target rules for targets named PerlinNoise
+
+# Build rule for target.
+PerlinNoise: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PerlinNoise
+.PHONY : PerlinNoise
+
+# fast build rule for target.
+PerlinNoise/fast:
+	$(MAKE) $(MAKESILENT) -f Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/build.make Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/build
+.PHONY : PerlinNoise/fast
+
+#=============================================================================
 # Target rules for targets named GameGUI
 
 # Build rule for target.
@@ -246,6 +272,8 @@ help:
 	@echo "... GameCoreTest"
 	@echo "... GameGUI"
 	@echo "... GameGUITest"
+	@echo "... PathFinder"
+	@echo "... PerlinNoise"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

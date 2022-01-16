@@ -230,6 +230,9 @@ GameCore_BINARY_DIR:STATIC=/home/eric/Projects/CGame/Core
 //Value Computed by CMake
 GameCore_IS_TOP_LEVEL:STATIC=OFF
 
+//Dependencies for the target
+GameCore_LIB_DEPENDS:STATIC=general;PathFinder;general;PerlinNoise;
+
 //Value Computed by CMake
 GameCore_SOURCE_DIR:STATIC=/home/eric/Projects/CGame/Core
 
@@ -280,6 +283,24 @@ OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
+//Value Computed by CMake
+PathFinder_BINARY_DIR:STATIC=/home/eric/Projects/CGame/Core/PathFinding
+
+//Value Computed by CMake
+PathFinder_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+PathFinder_SOURCE_DIR:STATIC=/home/eric/Projects/CGame/Core/PathFinding
+
+//Value Computed by CMake
+PerlinNoise_BINARY_DIR:STATIC=/home/eric/Projects/CGame/Core/PerlinNoise
+
+//Value Computed by CMake
+PerlinNoise_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+PerlinNoise_SOURCE_DIR:STATIC=/home/eric/Projects/CGame/Core/PerlinNoise
 
 //Additional directories where find(Qt6 ...) components are searched
 QT_ADDITIONAL_PACKAGES_PREFIX_PATH:STRING=
@@ -450,7 +471,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

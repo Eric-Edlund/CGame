@@ -1,5 +1,4 @@
 #include "pathfinder.h"
-#include "node.h"
 #include <iostream>
 #include <limits>
 
