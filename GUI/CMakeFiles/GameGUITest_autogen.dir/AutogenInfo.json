@@ -136,6 +136,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/eric/Projects/CGame/GUI/gameui.h",
+			"MU",
+			"EWIEGA46WW/moc_gameui.cpp",
+			null
+		],
+		[
 			"/home/eric/Projects/CGame/GUI/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -214,6 +220,7 @@
 	"SETTINGS_FILE" : "/home/eric/Projects/CGame/GUI/CMakeFiles/GameGUITest_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/eric/Projects/CGame/GUI/gameui.cpp", "MU", null ],
 		[ "/home/eric/Projects/CGame/GUI/main.cpp", "MU", null ],
 		[ "/home/eric/Projects/CGame/GUI/mainwindow.cpp", "MU", null ],
 		[ "/home/eric/Projects/CGame/GUI/mapdisplay.cpp", "MU", null ]

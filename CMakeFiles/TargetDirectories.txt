@@ -5,12 +5,16 @@
 /home/eric/Projects/CGame/Core/CMakeFiles/edit_cache.dir
 /home/eric/Projects/CGame/Core/CMakeFiles/GameCore.dir
 /home/eric/Projects/CGame/Core/CMakeFiles/GameCoreTest.dir
+/home/eric/Projects/CGame/Core/CMakeFiles/GameCore_autogen.dir
+/home/eric/Projects/CGame/Core/CMakeFiles/GameCoreTest_autogen.dir
 /home/eric/Projects/CGame/Core/PathFinding/CMakeFiles/rebuild_cache.dir
 /home/eric/Projects/CGame/Core/PathFinding/CMakeFiles/edit_cache.dir
 /home/eric/Projects/CGame/Core/PathFinding/CMakeFiles/PathFinder.dir
+/home/eric/Projects/CGame/Core/PathFinding/CMakeFiles/PathFinder_autogen.dir
 /home/eric/Projects/CGame/Core/PerlinNoise/CMakeFiles/rebuild_cache.dir
 /home/eric/Projects/CGame/Core/PerlinNoise/CMakeFiles/edit_cache.dir
 /home/eric/Projects/CGame/Core/PerlinNoise/CMakeFiles/PerlinNoise.dir
+/home/eric/Projects/CGame/Core/PerlinNoise/CMakeFiles/PerlinNoise_autogen.dir
 /home/eric/Projects/CGame/GUI/CMakeFiles/rebuild_cache.dir
 /home/eric/Projects/CGame/GUI/CMakeFiles/edit_cache.dir
 /home/eric/Projects/CGame/GUI/CMakeFiles/GameGUI.dir

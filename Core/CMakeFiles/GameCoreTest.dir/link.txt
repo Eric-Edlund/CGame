@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/GameCoreTest.dir/main.cpp.o -o GameCoreTest  libGameCore.a PathFinding/libPathFinder.a PerlinNoise/libPerlinNoise.a 
+/usr/bin/c++ -g CMakeFiles/GameCoreTest.dir/GameCoreTest_autogen/mocs_compilation.cpp.o CMakeFiles/GameCoreTest.dir/main.cpp.o -o GameCoreTest  -Wl,-rpath,/usr/lib/QT/6.2.2/gcc_64/lib libGameCore.a /usr/lib/QT/6.2.2/gcc_64/lib/libQt6Core.so.6.2.2 -pthread PathFinding/libPathFinder.a PerlinNoise/libPerlinNoise.a 

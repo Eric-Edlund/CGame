@@ -69,10 +69,24 @@ include Core/PathFinding/CMakeFiles/PathFinder.dir/progress.make
 # Include the compile flags for this target's objects.
 include Core/PathFinding/CMakeFiles/PathFinder.dir/flags.make
 
+Core/PathFinding/CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.o: Core/PathFinding/CMakeFiles/PathFinder.dir/flags.make
+Core/PathFinding/CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.o: Core/PathFinding/PathFinder_autogen/mocs_compilation.cpp
+Core/PathFinding/CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.o: Core/PathFinding/CMakeFiles/PathFinder.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Core/PathFinding/CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.o"
+	cd /home/eric/Projects/CGame/Core/PathFinding && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/PathFinding/CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.o -MF CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.o -c /home/eric/Projects/CGame/Core/PathFinding/PathFinder_autogen/mocs_compilation.cpp
+
+Core/PathFinding/CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.i"
+	cd /home/eric/Projects/CGame/Core/PathFinding && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/Projects/CGame/Core/PathFinding/PathFinder_autogen/mocs_compilation.cpp > CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.i
+
+Core/PathFinding/CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.s"
+	cd /home/eric/Projects/CGame/Core/PathFinding && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/Projects/CGame/Core/PathFinding/PathFinder_autogen/mocs_compilation.cpp -o CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.s
+
 Core/PathFinding/CMakeFiles/PathFinder.dir/pathfinder.cpp.o: Core/PathFinding/CMakeFiles/PathFinder.dir/flags.make
 Core/PathFinding/CMakeFiles/PathFinder.dir/pathfinder.cpp.o: Core/PathFinding/pathfinder.cpp
 Core/PathFinding/CMakeFiles/PathFinder.dir/pathfinder.cpp.o: Core/PathFinding/CMakeFiles/PathFinder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Core/PathFinding/CMakeFiles/PathFinder.dir/pathfinder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Core/PathFinding/CMakeFiles/PathFinder.dir/pathfinder.cpp.o"
 	cd /home/eric/Projects/CGame/Core/PathFinding && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/PathFinding/CMakeFiles/PathFinder.dir/pathfinder.cpp.o -MF CMakeFiles/PathFinder.dir/pathfinder.cpp.o.d -o CMakeFiles/PathFinder.dir/pathfinder.cpp.o -c /home/eric/Projects/CGame/Core/PathFinding/pathfinder.cpp
 
 Core/PathFinding/CMakeFiles/PathFinder.dir/pathfinder.cpp.i: cmake_force
@@ -85,15 +99,17 @@ Core/PathFinding/CMakeFiles/PathFinder.dir/pathfinder.cpp.s: cmake_force
 
 # Object files for target PathFinder
 PathFinder_OBJECTS = \
+"CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/PathFinder.dir/pathfinder.cpp.o"
 
 # External object files for target PathFinder
 PathFinder_EXTERNAL_OBJECTS =
 
+Core/PathFinding/libPathFinder.a: Core/PathFinding/CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.o
 Core/PathFinding/libPathFinder.a: Core/PathFinding/CMakeFiles/PathFinder.dir/pathfinder.cpp.o
 Core/PathFinding/libPathFinder.a: Core/PathFinding/CMakeFiles/PathFinder.dir/build.make
 Core/PathFinding/libPathFinder.a: Core/PathFinding/CMakeFiles/PathFinder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libPathFinder.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libPathFinder.a"
 	cd /home/eric/Projects/CGame/Core/PathFinding && $(CMAKE_COMMAND) -P CMakeFiles/PathFinder.dir/cmake_clean_target.cmake
 	cd /home/eric/Projects/CGame/Core/PathFinding && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PathFinder.dir/link.txt --verbose=$(VERBOSE)
 

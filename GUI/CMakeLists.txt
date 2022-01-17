@@ -25,6 +25,8 @@ set(SOURCES
     mainwindow.ui
     mapdisplay.h
     mapdisplay.cpp
+    gameui.h
+    gameui.cpp
 
 )
 

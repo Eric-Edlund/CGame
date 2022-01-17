@@ -231,7 +231,7 @@ GameCore_BINARY_DIR:STATIC=/home/eric/Projects/CGame/Core
 GameCore_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-GameCore_LIB_DEPENDS:STATIC=general;PathFinder;general;PerlinNoise;
+GameCore_LIB_DEPENDS:STATIC=general;PathFinder;general;PerlinNoise;general;Qt6::Core;
 
 //Value Computed by CMake
 GameCore_SOURCE_DIR:STATIC=/home/eric/Projects/CGame/Core

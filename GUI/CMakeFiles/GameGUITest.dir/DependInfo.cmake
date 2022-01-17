@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/eric/Projects/CGame/GUI/GameGUITest_autogen/mocs_compilation.cpp" "GUI/CMakeFiles/GameGUITest.dir/GameGUITest_autogen/mocs_compilation.cpp.o" "gcc" "GUI/CMakeFiles/GameGUITest.dir/GameGUITest_autogen/mocs_compilation.cpp.o.d"
+  "/home/eric/Projects/CGame/GUI/gameui.cpp" "GUI/CMakeFiles/GameGUITest.dir/gameui.cpp.o" "gcc" "GUI/CMakeFiles/GameGUITest.dir/gameui.cpp.o.d"
   "/home/eric/Projects/CGame/GUI/main.cpp" "GUI/CMakeFiles/GameGUITest.dir/main.cpp.o" "gcc" "GUI/CMakeFiles/GameGUITest.dir/main.cpp.o.d"
   "/home/eric/Projects/CGame/GUI/mainwindow.cpp" "GUI/CMakeFiles/GameGUITest.dir/mainwindow.cpp.o" "gcc" "GUI/CMakeFiles/GameGUITest.dir/mainwindow.cpp.o.d"
   "/home/eric/Projects/CGame/GUI/mapdisplay.cpp" "GUI/CMakeFiles/GameGUITest.dir/mapdisplay.cpp.o" "gcc" "GUI/CMakeFiles/GameGUITest.dir/mapdisplay.cpp.o.d"

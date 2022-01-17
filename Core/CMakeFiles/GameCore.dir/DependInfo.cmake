@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/eric/Projects/CGame/Core/GameCore_autogen/mocs_compilation.cpp" "Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o.d"
   "/home/eric/Projects/CGame/Core/edge.cpp" "Core/CMakeFiles/GameCore.dir/edge.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/edge.cpp.o.d"
   "/home/eric/Projects/CGame/Core/fragment.cpp" "Core/CMakeFiles/GameCore.dir/fragment.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/fragment.cpp.o.d"
+  "/home/eric/Projects/CGame/Core/gamebuilder.cpp" "Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.o.d"
   "/home/eric/Projects/CGame/Core/geometry.cpp" "Core/CMakeFiles/GameCore.dir/geometry.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/geometry.cpp.o.d"
   "/home/eric/Projects/CGame/Core/line.cpp" "Core/CMakeFiles/GameCore.dir/line.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/line.cpp.o.d"
   "/home/eric/Projects/CGame/Core/map.cpp" "Core/CMakeFiles/GameCore.dir/map.cpp.o" "gcc" "Core/CMakeFiles/GameCore.dir/map.cpp.o.d"

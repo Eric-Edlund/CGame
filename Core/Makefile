@@ -144,6 +144,82 @@ GameCoreTest/fast:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCoreTest.dir/build.make Core/CMakeFiles/GameCoreTest.dir/build
 .PHONY : GameCoreTest/fast
 
+# Convenience name for target.
+Core/CMakeFiles/GameCore_autogen.dir/rule:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/CMakeFiles/GameCore_autogen.dir/rule
+.PHONY : Core/CMakeFiles/GameCore_autogen.dir/rule
+
+# Convenience name for target.
+GameCore_autogen: Core/CMakeFiles/GameCore_autogen.dir/rule
+.PHONY : GameCore_autogen
+
+# fast build rule for target.
+GameCore_autogen/fast:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore_autogen.dir/build.make Core/CMakeFiles/GameCore_autogen.dir/build
+.PHONY : GameCore_autogen/fast
+
+# Convenience name for target.
+Core/CMakeFiles/GameCoreTest_autogen.dir/rule:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/CMakeFiles/GameCoreTest_autogen.dir/rule
+.PHONY : Core/CMakeFiles/GameCoreTest_autogen.dir/rule
+
+# Convenience name for target.
+GameCoreTest_autogen: Core/CMakeFiles/GameCoreTest_autogen.dir/rule
+.PHONY : GameCoreTest_autogen
+
+# fast build rule for target.
+GameCoreTest_autogen/fast:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCoreTest_autogen.dir/build.make Core/CMakeFiles/GameCoreTest_autogen.dir/build
+.PHONY : GameCoreTest_autogen/fast
+
+GameCoreTest_autogen/mocs_compilation.o: GameCoreTest_autogen/mocs_compilation.cpp.o
+.PHONY : GameCoreTest_autogen/mocs_compilation.o
+
+# target to build an object file
+GameCoreTest_autogen/mocs_compilation.cpp.o:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCoreTest.dir/build.make Core/CMakeFiles/GameCoreTest.dir/GameCoreTest_autogen/mocs_compilation.cpp.o
+.PHONY : GameCoreTest_autogen/mocs_compilation.cpp.o
+
+GameCoreTest_autogen/mocs_compilation.i: GameCoreTest_autogen/mocs_compilation.cpp.i
+.PHONY : GameCoreTest_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+GameCoreTest_autogen/mocs_compilation.cpp.i:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCoreTest.dir/build.make Core/CMakeFiles/GameCoreTest.dir/GameCoreTest_autogen/mocs_compilation.cpp.i
+.PHONY : GameCoreTest_autogen/mocs_compilation.cpp.i
+
+GameCoreTest_autogen/mocs_compilation.s: GameCoreTest_autogen/mocs_compilation.cpp.s
+.PHONY : GameCoreTest_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+GameCoreTest_autogen/mocs_compilation.cpp.s:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCoreTest.dir/build.make Core/CMakeFiles/GameCoreTest.dir/GameCoreTest_autogen/mocs_compilation.cpp.s
+.PHONY : GameCoreTest_autogen/mocs_compilation.cpp.s
+
+GameCore_autogen/mocs_compilation.o: GameCore_autogen/mocs_compilation.cpp.o
+.PHONY : GameCore_autogen/mocs_compilation.o
+
+# target to build an object file
+GameCore_autogen/mocs_compilation.cpp.o:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o
+.PHONY : GameCore_autogen/mocs_compilation.cpp.o
+
+GameCore_autogen/mocs_compilation.i: GameCore_autogen/mocs_compilation.cpp.i
+.PHONY : GameCore_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+GameCore_autogen/mocs_compilation.cpp.i:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.i
+.PHONY : GameCore_autogen/mocs_compilation.cpp.i
+
+GameCore_autogen/mocs_compilation.s: GameCore_autogen/mocs_compilation.cpp.s
+.PHONY : GameCore_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+GameCore_autogen/mocs_compilation.cpp.s:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.s
+.PHONY : GameCore_autogen/mocs_compilation.cpp.s
+
 edge.o: edge.cpp.o
 .PHONY : edge.o
 
@@ -191,6 +267,30 @@ fragment.s: fragment.cpp.s
 fragment.cpp.s:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/fragment.cpp.s
 .PHONY : fragment.cpp.s
+
+gamebuilder.o: gamebuilder.cpp.o
+.PHONY : gamebuilder.o
+
+# target to build an object file
+gamebuilder.cpp.o:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.o
+.PHONY : gamebuilder.cpp.o
+
+gamebuilder.i: gamebuilder.cpp.i
+.PHONY : gamebuilder.i
+
+# target to preprocess a source file
+gamebuilder.cpp.i:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.i
+.PHONY : gamebuilder.cpp.i
+
+gamebuilder.s: gamebuilder.cpp.s
+.PHONY : gamebuilder.s
+
+# target to generate assembly for a file
+gamebuilder.cpp.s:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore.dir/build.make Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.s
+.PHONY : gamebuilder.cpp.s
 
 geometry.o: geometry.cpp.o
 .PHONY : geometry.o
@@ -416,14 +516,25 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... GameCoreTest_autogen"
+	@echo "... GameCore_autogen"
 	@echo "... GameCore"
 	@echo "... GameCoreTest"
+	@echo "... GameCoreTest_autogen/mocs_compilation.o"
+	@echo "... GameCoreTest_autogen/mocs_compilation.i"
+	@echo "... GameCoreTest_autogen/mocs_compilation.s"
+	@echo "... GameCore_autogen/mocs_compilation.o"
+	@echo "... GameCore_autogen/mocs_compilation.i"
+	@echo "... GameCore_autogen/mocs_compilation.s"
 	@echo "... edge.o"
 	@echo "... edge.i"
 	@echo "... edge.s"
 	@echo "... fragment.o"
 	@echo "... fragment.i"
 	@echo "... fragment.s"
+	@echo "... gamebuilder.o"
+	@echo "... gamebuilder.i"
+	@echo "... gamebuilder.s"
 	@echo "... geometry.o"
 	@echo "... geometry.i"
 	@echo "... geometry.s"

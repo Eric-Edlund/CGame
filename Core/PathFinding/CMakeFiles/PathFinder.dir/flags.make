@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/eric/Projects/CGame/Core/PathFinding/PathFinder -I/home/eric/Projects/CGame/Core/PathFinding/..
+CXX_INCLUDES = -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PathFinding/PathFinder_autogen/include -I/home/eric/Projects/CGame/Core/PathFinding/PathFinder -I/home/eric/Projects/CGame/Core/PathFinding/..
 
-CXX_FLAGS = -g
+CXX_FLAGS = -g -std=gnu++11
 

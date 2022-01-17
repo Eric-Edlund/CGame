@@ -220,6 +220,33 @@ GameGUI_autogen/mocs_compilation.cpp.s:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/GameGUI_autogen/mocs_compilation.cpp.s
 .PHONY : GameGUI_autogen/mocs_compilation.cpp.s
 
+gameui.o: gameui.cpp.o
+.PHONY : gameui.o
+
+# target to build an object file
+gameui.cpp.o:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/gameui.cpp.o
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/gameui.cpp.o
+.PHONY : gameui.cpp.o
+
+gameui.i: gameui.cpp.i
+.PHONY : gameui.i
+
+# target to preprocess a source file
+gameui.cpp.i:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/gameui.cpp.i
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/gameui.cpp.i
+.PHONY : gameui.cpp.i
+
+gameui.s: gameui.cpp.s
+.PHONY : gameui.s
+
+# target to generate assembly for a file
+gameui.cpp.s:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUI.dir/build.make GUI/CMakeFiles/GameGUI.dir/gameui.cpp.s
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f GUI/CMakeFiles/GameGUITest.dir/build.make GUI/CMakeFiles/GameGUITest.dir/gameui.cpp.s
+.PHONY : gameui.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -316,6 +343,9 @@ help:
 	@echo "... GameGUI_autogen/mocs_compilation.o"
 	@echo "... GameGUI_autogen/mocs_compilation.i"
 	@echo "... GameGUI_autogen/mocs_compilation.s"
+	@echo "... gameui.o"
+	@echo "... gameui.i"
+	@echo "... gameui.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

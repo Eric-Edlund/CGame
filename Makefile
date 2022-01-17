@@ -156,6 +156,32 @@ GameCoreTest/fast:
 .PHONY : GameCoreTest/fast
 
 #=============================================================================
+# Target rules for targets named GameCore_autogen
+
+# Build rule for target.
+GameCore_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GameCore_autogen
+.PHONY : GameCore_autogen
+
+# fast build rule for target.
+GameCore_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCore_autogen.dir/build.make Core/CMakeFiles/GameCore_autogen.dir/build
+.PHONY : GameCore_autogen/fast
+
+#=============================================================================
+# Target rules for targets named GameCoreTest_autogen
+
+# Build rule for target.
+GameCoreTest_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GameCoreTest_autogen
+.PHONY : GameCoreTest_autogen
+
+# fast build rule for target.
+GameCoreTest_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GameCoreTest_autogen.dir/build.make Core/CMakeFiles/GameCoreTest_autogen.dir/build
+.PHONY : GameCoreTest_autogen/fast
+
+#=============================================================================
 # Target rules for targets named PathFinder
 
 # Build rule for target.
@@ -169,6 +195,19 @@ PathFinder/fast:
 .PHONY : PathFinder/fast
 
 #=============================================================================
+# Target rules for targets named PathFinder_autogen
+
+# Build rule for target.
+PathFinder_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PathFinder_autogen
+.PHONY : PathFinder_autogen
+
+# fast build rule for target.
+PathFinder_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f Core/PathFinding/CMakeFiles/PathFinder_autogen.dir/build.make Core/PathFinding/CMakeFiles/PathFinder_autogen.dir/build
+.PHONY : PathFinder_autogen/fast
+
+#=============================================================================
 # Target rules for targets named PerlinNoise
 
 # Build rule for target.
@@ -180,6 +219,19 @@ PerlinNoise: cmake_check_build_system
 PerlinNoise/fast:
 	$(MAKE) $(MAKESILENT) -f Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/build.make Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/build
 .PHONY : PerlinNoise/fast
+
+#=============================================================================
+# Target rules for targets named PerlinNoise_autogen
+
+# Build rule for target.
+PerlinNoise_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PerlinNoise_autogen
+.PHONY : PerlinNoise_autogen
+
+# fast build rule for target.
+PerlinNoise_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f Core/PerlinNoise/CMakeFiles/PerlinNoise_autogen.dir/build.make Core/PerlinNoise/CMakeFiles/PerlinNoise_autogen.dir/build
+.PHONY : PerlinNoise_autogen/fast
 
 #=============================================================================
 # Target rules for targets named GameGUI
@@ -265,8 +317,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... GameCoreTest_autogen"
+	@echo "... GameCore_autogen"
 	@echo "... GameGUITest_autogen"
 	@echo "... GameGUI_autogen"
+	@echo "... PathFinder_autogen"
+	@echo "... PerlinNoise_autogen"
 	@echo "... Game"
 	@echo "... GameCore"
 	@echo "... GameCoreTest"

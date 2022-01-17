@@ -71,7 +71,12 @@ What will be the best, most memorable and enjoyable part of the game?
 Now that's a good goal. Now we have a target, one that quite possibly involves some sociology and economics research.
 Wow.
 This will take longer than I thought.
-    
+
+
+==================
+Starting the Game
+==================
+
 How early do you want to start?
 Do we start with the nation-state?
 A settlement?
@@ -86,13 +91,51 @@ We start with a few different buildings all in one tile.
 A small, working society.
 No borders, a small visible area around it.
 
+Eventually, I would like options:
+- Start as a tiny settlement from scratch, no technology
+- Start as a colony with some technology and a supply chain (much more competitive)
+- Start as a nation already assembled (maybe more economically focused)
+
+But to start out:
+@plan: Tiny settlement starting from scratch
+    2 Options:
+    - Pick starting location (you can see the whole map)
+    - Random starting location (involves some fairness algorithms I don't have yet)
+
+    Start with pick location.
 
 
-    
+==============
+Starting Menu
+==============
+
+Launch -> Start Menu
+            | New Game
+            | Join Game (Eventually)
+            | Saved Games (Also later)
+
 
 
         
+==========================
+Minimum Shippable Product
+==========================
         
-        
+0. Start/launch menu
+1. Create world dialouge (literally just dimensions)
+2. Start settlement, progress through turns
+3. BASIC economy + scaleable structure
+    a. Maybe like 5 total tile vars
+    b. like 5 structures, 4 commodities and just human transport
+    c. taxes (fixed rate! linear! simple!)
+4. GUI that lets you
+    a. Next turn
+    b. See tile info
+    c. pick starting location
+    d. produce troops
+5. BASIC military w/ moves
+6. Opponent AI (doesn't even need to follow the rules)
+7. Winning condition
+
         
         
