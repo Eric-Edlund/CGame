@@ -1,3 +1,7 @@
 # Hashes of file build rules.
+08dc22f2a0ae737241b7ab068a3a657c Core/CMakeFiles/GameCoreTest_autogen
+f0cfd8d5e5f71afa38eab1e28047842e Core/CMakeFiles/GameCore_autogen
+8c15ddbaf86e51175d054bdcd020a4f1 Core/PathFinding/CMakeFiles/PathFinder_autogen
+df4eddb8302e0de5f263ecab41b98473 Core/PerlinNoise/CMakeFiles/PerlinNoise_autogen
 d3b826d2c697fc8b4705f21e1bdcbdd6 GUI/CMakeFiles/GameGUITest_autogen
 021535527f3d910d60c7385e5e14ab26 GUI/CMakeFiles/GameGUI_autogen

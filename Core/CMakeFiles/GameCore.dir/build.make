@@ -69,10 +69,24 @@ include Core/CMakeFiles/GameCore.dir/progress.make
 # Include the compile flags for this target's objects.
 include Core/CMakeFiles/GameCore.dir/flags.make
 
+Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
+Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o: Core/GameCore_autogen/mocs_compilation.cpp
+Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o"
+	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o -MF CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o -c /home/eric/Projects/CGame/Core/GameCore_autogen/mocs_compilation.cpp
+
+Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.i"
+	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/Projects/CGame/Core/GameCore_autogen/mocs_compilation.cpp > CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.i
+
+Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.s"
+	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/Projects/CGame/Core/GameCore_autogen/mocs_compilation.cpp -o CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.s
+
 Core/CMakeFiles/GameCore.dir/point.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
 Core/CMakeFiles/GameCore.dir/point.cpp.o: Core/point.cpp
 Core/CMakeFiles/GameCore.dir/point.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Core/CMakeFiles/GameCore.dir/point.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Core/CMakeFiles/GameCore.dir/point.cpp.o"
 	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/point.cpp.o -MF CMakeFiles/GameCore.dir/point.cpp.o.d -o CMakeFiles/GameCore.dir/point.cpp.o -c /home/eric/Projects/CGame/Core/point.cpp
 
 Core/CMakeFiles/GameCore.dir/point.cpp.i: cmake_force
@@ -86,7 +100,7 @@ Core/CMakeFiles/GameCore.dir/point.cpp.s: cmake_force
 Core/CMakeFiles/GameCore.dir/edge.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
 Core/CMakeFiles/GameCore.dir/edge.cpp.o: Core/edge.cpp
 Core/CMakeFiles/GameCore.dir/edge.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Core/CMakeFiles/GameCore.dir/edge.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Core/CMakeFiles/GameCore.dir/edge.cpp.o"
 	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/edge.cpp.o -MF CMakeFiles/GameCore.dir/edge.cpp.o.d -o CMakeFiles/GameCore.dir/edge.cpp.o -c /home/eric/Projects/CGame/Core/edge.cpp
 
 Core/CMakeFiles/GameCore.dir/edge.cpp.i: cmake_force
@@ -100,7 +114,7 @@ Core/CMakeFiles/GameCore.dir/edge.cpp.s: cmake_force
 Core/CMakeFiles/GameCore.dir/fragment.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
 Core/CMakeFiles/GameCore.dir/fragment.cpp.o: Core/fragment.cpp
 Core/CMakeFiles/GameCore.dir/fragment.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Core/CMakeFiles/GameCore.dir/fragment.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Core/CMakeFiles/GameCore.dir/fragment.cpp.o"
 	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/fragment.cpp.o -MF CMakeFiles/GameCore.dir/fragment.cpp.o.d -o CMakeFiles/GameCore.dir/fragment.cpp.o -c /home/eric/Projects/CGame/Core/fragment.cpp
 
 Core/CMakeFiles/GameCore.dir/fragment.cpp.i: cmake_force
@@ -114,7 +128,7 @@ Core/CMakeFiles/GameCore.dir/fragment.cpp.s: cmake_force
 Core/CMakeFiles/GameCore.dir/geometry.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
 Core/CMakeFiles/GameCore.dir/geometry.cpp.o: Core/geometry.cpp
 Core/CMakeFiles/GameCore.dir/geometry.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Core/CMakeFiles/GameCore.dir/geometry.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Core/CMakeFiles/GameCore.dir/geometry.cpp.o"
 	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/geometry.cpp.o -MF CMakeFiles/GameCore.dir/geometry.cpp.o.d -o CMakeFiles/GameCore.dir/geometry.cpp.o -c /home/eric/Projects/CGame/Core/geometry.cpp
 
 Core/CMakeFiles/GameCore.dir/geometry.cpp.i: cmake_force
@@ -128,7 +142,7 @@ Core/CMakeFiles/GameCore.dir/geometry.cpp.s: cmake_force
 Core/CMakeFiles/GameCore.dir/line.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
 Core/CMakeFiles/GameCore.dir/line.cpp.o: Core/line.cpp
 Core/CMakeFiles/GameCore.dir/line.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Core/CMakeFiles/GameCore.dir/line.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Core/CMakeFiles/GameCore.dir/line.cpp.o"
 	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/line.cpp.o -MF CMakeFiles/GameCore.dir/line.cpp.o.d -o CMakeFiles/GameCore.dir/line.cpp.o -c /home/eric/Projects/CGame/Core/line.cpp
 
 Core/CMakeFiles/GameCore.dir/line.cpp.i: cmake_force
@@ -142,7 +156,7 @@ Core/CMakeFiles/GameCore.dir/line.cpp.s: cmake_force
 Core/CMakeFiles/GameCore.dir/map.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
 Core/CMakeFiles/GameCore.dir/map.cpp.o: Core/map.cpp
 Core/CMakeFiles/GameCore.dir/map.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Core/CMakeFiles/GameCore.dir/map.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Core/CMakeFiles/GameCore.dir/map.cpp.o"
 	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/map.cpp.o -MF CMakeFiles/GameCore.dir/map.cpp.o.d -o CMakeFiles/GameCore.dir/map.cpp.o -c /home/eric/Projects/CGame/Core/map.cpp
 
 Core/CMakeFiles/GameCore.dir/map.cpp.i: cmake_force
@@ -156,7 +170,7 @@ Core/CMakeFiles/GameCore.dir/map.cpp.s: cmake_force
 Core/CMakeFiles/GameCore.dir/rectangle.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
 Core/CMakeFiles/GameCore.dir/rectangle.cpp.o: Core/rectangle.cpp
 Core/CMakeFiles/GameCore.dir/rectangle.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Core/CMakeFiles/GameCore.dir/rectangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Core/CMakeFiles/GameCore.dir/rectangle.cpp.o"
 	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/rectangle.cpp.o -MF CMakeFiles/GameCore.dir/rectangle.cpp.o.d -o CMakeFiles/GameCore.dir/rectangle.cpp.o -c /home/eric/Projects/CGame/Core/rectangle.cpp
 
 Core/CMakeFiles/GameCore.dir/rectangle.cpp.i: cmake_force
@@ -170,7 +184,7 @@ Core/CMakeFiles/GameCore.dir/rectangle.cpp.s: cmake_force
 Core/CMakeFiles/GameCore.dir/mapmaker.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
 Core/CMakeFiles/GameCore.dir/mapmaker.cpp.o: Core/mapmaker.cpp
 Core/CMakeFiles/GameCore.dir/mapmaker.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Core/CMakeFiles/GameCore.dir/mapmaker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Core/CMakeFiles/GameCore.dir/mapmaker.cpp.o"
 	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/mapmaker.cpp.o -MF CMakeFiles/GameCore.dir/mapmaker.cpp.o.d -o CMakeFiles/GameCore.dir/mapmaker.cpp.o -c /home/eric/Projects/CGame/Core/mapmaker.cpp
 
 Core/CMakeFiles/GameCore.dir/mapmaker.cpp.i: cmake_force
@@ -184,7 +198,7 @@ Core/CMakeFiles/GameCore.dir/mapmaker.cpp.s: cmake_force
 Core/CMakeFiles/GameCore.dir/tile.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
 Core/CMakeFiles/GameCore.dir/tile.cpp.o: Core/tile.cpp
 Core/CMakeFiles/GameCore.dir/tile.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Core/CMakeFiles/GameCore.dir/tile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Core/CMakeFiles/GameCore.dir/tile.cpp.o"
 	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/tile.cpp.o -MF CMakeFiles/GameCore.dir/tile.cpp.o.d -o CMakeFiles/GameCore.dir/tile.cpp.o -c /home/eric/Projects/CGame/Core/tile.cpp
 
 Core/CMakeFiles/GameCore.dir/tile.cpp.i: cmake_force
@@ -198,7 +212,7 @@ Core/CMakeFiles/GameCore.dir/tile.cpp.s: cmake_force
 Core/CMakeFiles/GameCore.dir/utilities.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
 Core/CMakeFiles/GameCore.dir/utilities.cpp.o: Core/utilities.cpp
 Core/CMakeFiles/GameCore.dir/utilities.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Core/CMakeFiles/GameCore.dir/utilities.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Core/CMakeFiles/GameCore.dir/utilities.cpp.o"
 	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/utilities.cpp.o -MF CMakeFiles/GameCore.dir/utilities.cpp.o.d -o CMakeFiles/GameCore.dir/utilities.cpp.o -c /home/eric/Projects/CGame/Core/utilities.cpp
 
 Core/CMakeFiles/GameCore.dir/utilities.cpp.i: cmake_force
@@ -209,8 +223,23 @@ Core/CMakeFiles/GameCore.dir/utilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameCore.dir/utilities.cpp.s"
 	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/Projects/CGame/Core/utilities.cpp -o CMakeFiles/GameCore.dir/utilities.cpp.s
 
+Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.o: Core/CMakeFiles/GameCore.dir/flags.make
+Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.o: Core/gamebuilder.cpp
+Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.o: Core/CMakeFiles/GameCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.o"
+	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.o -MF CMakeFiles/GameCore.dir/gamebuilder.cpp.o.d -o CMakeFiles/GameCore.dir/gamebuilder.cpp.o -c /home/eric/Projects/CGame/Core/gamebuilder.cpp
+
+Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameCore.dir/gamebuilder.cpp.i"
+	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/Projects/CGame/Core/gamebuilder.cpp > CMakeFiles/GameCore.dir/gamebuilder.cpp.i
+
+Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameCore.dir/gamebuilder.cpp.s"
+	cd /home/eric/Projects/CGame/Core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/Projects/CGame/Core/gamebuilder.cpp -o CMakeFiles/GameCore.dir/gamebuilder.cpp.s
+
 # Object files for target GameCore
 GameCore_OBJECTS = \
+"CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/GameCore.dir/point.cpp.o" \
 "CMakeFiles/GameCore.dir/edge.cpp.o" \
 "CMakeFiles/GameCore.dir/fragment.cpp.o" \
@@ -220,11 +249,13 @@ GameCore_OBJECTS = \
 "CMakeFiles/GameCore.dir/rectangle.cpp.o" \
 "CMakeFiles/GameCore.dir/mapmaker.cpp.o" \
 "CMakeFiles/GameCore.dir/tile.cpp.o" \
-"CMakeFiles/GameCore.dir/utilities.cpp.o"
+"CMakeFiles/GameCore.dir/utilities.cpp.o" \
+"CMakeFiles/GameCore.dir/gamebuilder.cpp.o"
 
 # External object files for target GameCore
 GameCore_EXTERNAL_OBJECTS =
 
+Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/point.cpp.o
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/edge.cpp.o
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/fragment.cpp.o
@@ -235,9 +266,10 @@ Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/rectangle.cpp.o
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/mapmaker.cpp.o
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/tile.cpp.o
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/utilities.cpp.o
+Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/gamebuilder.cpp.o
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/build.make
 Core/libGameCore.a: Core/CMakeFiles/GameCore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libGameCore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libGameCore.a"
 	cd /home/eric/Projects/CGame/Core && $(CMAKE_COMMAND) -P CMakeFiles/GameCore.dir/cmake_clean_target.cmake
 	cd /home/eric/Projects/CGame/Core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameCore.dir/link.txt --verbose=$(VERBOSE)
 

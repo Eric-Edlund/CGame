@@ -8,9 +8,10 @@ class Tile : public Fragment
 {
 public:
     Tile();
+
     std::vector<Tile*> getNeighbors();
 
-    bool land;
+    bool land = false;
     short type = 0;
     const static short grass = 0;
     const static short mountain = 1;

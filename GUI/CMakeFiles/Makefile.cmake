@@ -156,11 +156,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/GameGUI_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/GameGUITest_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/GameGUI.dir/DependInfo.cmake"
+  "CMakeFiles/GameGUITest.dir/DependInfo.cmake"
   "CMakeFiles/GameGUI_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/GameGUITest_autogen.dir/DependInfo.cmake"
   )

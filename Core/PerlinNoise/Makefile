@@ -130,6 +130,20 @@ PerlinNoise/fast:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/build.make Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/build
 .PHONY : PerlinNoise/fast
 
+# Convenience name for target.
+Core/PerlinNoise/CMakeFiles/PerlinNoise_autogen.dir/rule:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/PerlinNoise/CMakeFiles/PerlinNoise_autogen.dir/rule
+.PHONY : Core/PerlinNoise/CMakeFiles/PerlinNoise_autogen.dir/rule
+
+# Convenience name for target.
+PerlinNoise_autogen: Core/PerlinNoise/CMakeFiles/PerlinNoise_autogen.dir/rule
+.PHONY : PerlinNoise_autogen
+
+# fast build rule for target.
+PerlinNoise_autogen/fast:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/PerlinNoise/CMakeFiles/PerlinNoise_autogen.dir/build.make Core/PerlinNoise/CMakeFiles/PerlinNoise_autogen.dir/build
+.PHONY : PerlinNoise_autogen/fast
+
 PerlinNoise.o: PerlinNoise.cpp.o
 .PHONY : PerlinNoise.o
 
@@ -154,6 +168,30 @@ PerlinNoise.cpp.s:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/build.make Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.s
 .PHONY : PerlinNoise.cpp.s
 
+PerlinNoise_autogen/mocs_compilation.o: PerlinNoise_autogen/mocs_compilation.cpp.o
+.PHONY : PerlinNoise_autogen/mocs_compilation.o
+
+# target to build an object file
+PerlinNoise_autogen/mocs_compilation.cpp.o:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/build.make Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.o
+.PHONY : PerlinNoise_autogen/mocs_compilation.cpp.o
+
+PerlinNoise_autogen/mocs_compilation.i: PerlinNoise_autogen/mocs_compilation.cpp.i
+.PHONY : PerlinNoise_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+PerlinNoise_autogen/mocs_compilation.cpp.i:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/build.make Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.i
+.PHONY : PerlinNoise_autogen/mocs_compilation.cpp.i
+
+PerlinNoise_autogen/mocs_compilation.s: PerlinNoise_autogen/mocs_compilation.cpp.s
+.PHONY : PerlinNoise_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+PerlinNoise_autogen/mocs_compilation.cpp.s:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/build.make Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.s
+.PHONY : PerlinNoise_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,10 +200,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... PerlinNoise_autogen"
 	@echo "... PerlinNoise"
 	@echo "... PerlinNoise.o"
 	@echo "... PerlinNoise.i"
 	@echo "... PerlinNoise.s"
+	@echo "... PerlinNoise_autogen/mocs_compilation.o"
+	@echo "... PerlinNoise_autogen/mocs_compilation.i"
+	@echo "... PerlinNoise_autogen/mocs_compilation.s"
 .PHONY : help
 
 

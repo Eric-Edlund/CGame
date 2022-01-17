@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/eric/Projects/CGame/Core/PerlinNoise -I/home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise_autogen/include
 
-CXX_FLAGS = -g
+CXX_FLAGS = -g -std=gnu++11
 

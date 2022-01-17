@@ -69,10 +69,24 @@ include Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/progress.make
 # Include the compile flags for this target's objects.
 include Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/flags.make
 
+Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.o: Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/flags.make
+Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.o: Core/PerlinNoise/PerlinNoise_autogen/mocs_compilation.cpp
+Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.o: Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.o"
+	cd /home/eric/Projects/CGame/Core/PerlinNoise && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.o -MF CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.o -c /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise_autogen/mocs_compilation.cpp
+
+Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.i"
+	cd /home/eric/Projects/CGame/Core/PerlinNoise && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise_autogen/mocs_compilation.cpp > CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.i
+
+Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.s"
+	cd /home/eric/Projects/CGame/Core/PerlinNoise && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise_autogen/mocs_compilation.cpp -o CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.s
+
 Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o: Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/flags.make
 Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o: Core/PerlinNoise/PerlinNoise.cpp
 Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o: Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o"
 	cd /home/eric/Projects/CGame/Core/PerlinNoise && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o -MF CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o.d -o CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o -c /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp
 
 Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.i: cmake_force
@@ -85,15 +99,17 @@ Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.s: cmake_force
 
 # Object files for target PerlinNoise
 PerlinNoise_OBJECTS = \
+"CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o"
 
 # External object files for target PerlinNoise
 PerlinNoise_EXTERNAL_OBJECTS =
 
+Core/PerlinNoise/libPerlinNoise.a: Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.o
 Core/PerlinNoise/libPerlinNoise.a: Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o
 Core/PerlinNoise/libPerlinNoise.a: Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/build.make
 Core/PerlinNoise/libPerlinNoise.a: Core/PerlinNoise/CMakeFiles/PerlinNoise.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libPerlinNoise.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/Projects/CGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libPerlinNoise.a"
 	cd /home/eric/Projects/CGame/Core/PerlinNoise && $(CMAKE_COMMAND) -P CMakeFiles/PerlinNoise.dir/cmake_clean_target.cmake
 	cd /home/eric/Projects/CGame/Core/PerlinNoise && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PerlinNoise.dir/link.txt --verbose=$(VERBOSE)
 

@@ -14,6 +14,9 @@
 #include <cmath>
 
 #define tiles map->tiles
+#define In std::cout << "In" << std::endl;
+#define Out std::cout << "Out" << std::endl;
+#define Flag std::cout << "Flag" << std::endl;
 
 
 MapDisplay::MapDisplay(QWidget* parent)
@@ -55,7 +58,13 @@ Point MapDisplay::canvasToMap(QPointF p){
     return canvasToMap(&p);
 }
 
-void MapDisplay::updateMapCache(){//verify it's actually clipping (I don't think it is)
+void MapDisplay::updateMapCache(){//FIXME: Clipping should be done here
+    onScreenFragments.clear();
+    for(Tile* t: tiles){
+        onScreenFragments.push_back(t);
+    }
+
+    return;
     onScreenFragments.clear();
     for(Tile* f: tiles){
         for(Point* p: f->getVerticies())
@@ -86,7 +95,10 @@ void MapDisplay::resizeGL(int w, int h){
 }
 
 void MapDisplay::paintTile(Tile* t, QPainter* p){
+
+
     if(t->land){
+//Out
         switch(t->type){
         case Tile::grass:
             p->setPen(Qt::green);
@@ -101,24 +113,47 @@ void MapDisplay::paintTile(Tile* t, QPainter* p){
             p->setBrush(Qt::darkGreen);
             break;
         }
+
     } else{
+        //Out
         p->setPen(Qt::blue);
         p->setBrush(Qt::blue);
+
     }
+//Flag
+
+//t->getVerticies().size();
 
     for(Point* p: t->getVerticies()){
+
+        //std::cout << "Mid" << std::endl;
         qpts.push_back(mapToCanvas(p));
     }
+
+
     if(qpts.size() == 0) return;
+
     p->drawPolygon(&qpts.at(0), qpts.size(), Qt::FillRule::OddEvenFill);
+
+
     qpts.clear();
+
 }
 
 void MapDisplay::paintGL(){
+    if(!render) return;
     QPainter p(this);
 
+    if(map == nullptr) return;
+    //std::cout << onScreenFragments.size() << std::endl;
+
     //paint tiles
-    for(Tile* t: onScreenFragments) paintTile(t, &p);
+    for(Tile* t: onScreenFragments){
+        //In
+        paintTile(t, &p);
+
+    }
+
 
     //highlight tile under cursor
     if(highlighted != nullptr){
@@ -134,26 +169,33 @@ void MapDisplay::paintGL(){
         brokenFragment:;
     }
 
-
 }
 
 void MapDisplay::setMap(Map* m){
+    if(m == map) return;
     map = m;
+    updateMapCache();
+    update();
+
 }
 
 void MapDisplay::setFocus(){
     viewBox.moveCenterTo(map->getBounds().getCenter());
+    update();
 }
 
 void MapDisplay::setFocus(Point p){
     viewBox.moveCenterTo(p);
+    updateMapCache();
+    update();
 }
 
 void MapDisplay::setViewBox(Rectangle r){
-
     viewBox = r;
+
 }
 Point MapDisplay::focus(){
+    updateMapCache();
     return viewBox.getCenter();
 }
 
@@ -183,10 +225,11 @@ void MapDisplay::mouseMoveEvent(QMouseEvent *event){
 
         setFocus(Point(focus().x + xChange, focus().y + yChange));//pick up here
         lastPress = event->pos();
-        updateMapCache();
 
     }else{//mouse isn't being dragged
         highlighted = nullptr;
+
+
         for(Tile* f: tiles){
 
             if(f->contains(canvasToMap(event->pos()))){
@@ -203,10 +246,11 @@ void MapDisplay::mouseMoveEvent(QMouseEvent *event){
 
     }
 
-
-this->update();
-event->accept();
+    this->update();
+    event->accept();
 }
+
+
 
 void MapDisplay::wheelEvent(QWheelEvent *event){
     if(event->angleDelta().y() < 0)
@@ -216,4 +260,21 @@ void MapDisplay::wheelEvent(QWheelEvent *event){
 
     this->update();
     event->accept();
+}
+
+void MapDisplay::fitMapIntoView(){
+    updateMapCache();
+    setViewBox(map->getBounds());
+
+    this->update();
+
+}
+
+void MapDisplay::pauseRendering(){
+    render = false;
+}
+
+void MapDisplay::resumeRendering(){
+    updateMapCache();
+    render = true;
 }

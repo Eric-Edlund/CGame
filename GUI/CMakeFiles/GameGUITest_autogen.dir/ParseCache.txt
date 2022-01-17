@@ -12,7 +12,6 @@
  mdp:/home/eric/Projects/CGame/Core/fragment.h
  mdp:/home/eric/Projects/CGame/Core/line.h
  mdp:/home/eric/Projects/CGame/Core/map.h
- mdp:/home/eric/Projects/CGame/Core/node.h
  mdp:/home/eric/Projects/CGame/Core/point.h
  mdp:/home/eric/Projects/CGame/Core/rectangle.h
  mdp:/home/eric/Projects/CGame/Core/tile.h

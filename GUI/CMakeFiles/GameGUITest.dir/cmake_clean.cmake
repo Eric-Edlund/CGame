@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "GameGUITest_autogen"
   "CMakeFiles/GameGUITest.dir/GameGUITest_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/GameGUITest.dir/GameGUITest_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/GameGUITest.dir/gameui.cpp.o"
+  "CMakeFiles/GameGUITest.dir/gameui.cpp.o.d"
   "CMakeFiles/GameGUITest.dir/main.cpp.o"
   "CMakeFiles/GameGUITest.dir/main.cpp.o.d"
   "CMakeFiles/GameGUITest.dir/mainwindow.cpp.o"

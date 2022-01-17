@@ -6,67 +6,92 @@
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/point.cpp.o -c /home/eric/Projects/CGame/Core/point.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCore_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCore.dir/GameCore_autogen/mocs_compilation.cpp.o -c /home/eric/Projects/CGame/Core/GameCore_autogen/mocs_compilation.cpp",
+  "file": "/home/eric/Projects/CGame/Core/GameCore_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCore_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCore.dir/point.cpp.o -c /home/eric/Projects/CGame/Core/point.cpp",
   "file": "/home/eric/Projects/CGame/Core/point.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/edge.cpp.o -c /home/eric/Projects/CGame/Core/edge.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCore_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCore.dir/edge.cpp.o -c /home/eric/Projects/CGame/Core/edge.cpp",
   "file": "/home/eric/Projects/CGame/Core/edge.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/fragment.cpp.o -c /home/eric/Projects/CGame/Core/fragment.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCore_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCore.dir/fragment.cpp.o -c /home/eric/Projects/CGame/Core/fragment.cpp",
   "file": "/home/eric/Projects/CGame/Core/fragment.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/geometry.cpp.o -c /home/eric/Projects/CGame/Core/geometry.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCore_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCore.dir/geometry.cpp.o -c /home/eric/Projects/CGame/Core/geometry.cpp",
   "file": "/home/eric/Projects/CGame/Core/geometry.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/line.cpp.o -c /home/eric/Projects/CGame/Core/line.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCore_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCore.dir/line.cpp.o -c /home/eric/Projects/CGame/Core/line.cpp",
   "file": "/home/eric/Projects/CGame/Core/line.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/map.cpp.o -c /home/eric/Projects/CGame/Core/map.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCore_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCore.dir/map.cpp.o -c /home/eric/Projects/CGame/Core/map.cpp",
   "file": "/home/eric/Projects/CGame/Core/map.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/rectangle.cpp.o -c /home/eric/Projects/CGame/Core/rectangle.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCore_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCore.dir/rectangle.cpp.o -c /home/eric/Projects/CGame/Core/rectangle.cpp",
   "file": "/home/eric/Projects/CGame/Core/rectangle.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/mapmaker.cpp.o -c /home/eric/Projects/CGame/Core/mapmaker.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCore_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCore.dir/mapmaker.cpp.o -c /home/eric/Projects/CGame/Core/mapmaker.cpp",
   "file": "/home/eric/Projects/CGame/Core/mapmaker.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/tile.cpp.o -c /home/eric/Projects/CGame/Core/tile.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCore_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCore.dir/tile.cpp.o -c /home/eric/Projects/CGame/Core/tile.cpp",
   "file": "/home/eric/Projects/CGame/Core/tile.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCore.dir/utilities.cpp.o -c /home/eric/Projects/CGame/Core/utilities.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCore_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCore.dir/utilities.cpp.o -c /home/eric/Projects/CGame/Core/utilities.cpp",
   "file": "/home/eric/Projects/CGame/Core/utilities.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core",
-  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -g -o CMakeFiles/GameCoreTest.dir/main.cpp.o -c /home/eric/Projects/CGame/Core/main.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCore_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCore.dir/gamebuilder.cpp.o -c /home/eric/Projects/CGame/Core/gamebuilder.cpp",
+  "file": "/home/eric/Projects/CGame/Core/gamebuilder.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCoreTest_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCoreTest.dir/GameCoreTest_autogen/mocs_compilation.cpp.o -c /home/eric/Projects/CGame/Core/GameCoreTest_autogen/mocs_compilation.cpp",
+  "file": "/home/eric/Projects/CGame/Core/GameCoreTest_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -I/home/eric/Projects/CGame/Core -I/home/eric/Projects/CGame/Core/GameCoreTest_autogen/include -I/home/eric/Projects/CGame/Core/GameCore -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PerlinNoise -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameCoreTest.dir/main.cpp.o -c /home/eric/Projects/CGame/Core/main.cpp",
   "file": "/home/eric/Projects/CGame/Core/main.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core/PathFinding",
-  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/PathFinding/PathFinder -I/home/eric/Projects/CGame/Core/PathFinding/.. -g -o CMakeFiles/PathFinder.dir/pathfinder.cpp.o -c /home/eric/Projects/CGame/Core/PathFinding/pathfinder.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PathFinding/PathFinder_autogen/include -I/home/eric/Projects/CGame/Core/PathFinding/PathFinder -I/home/eric/Projects/CGame/Core/PathFinding/.. -g -std=gnu++11 -o CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.o -c /home/eric/Projects/CGame/Core/PathFinding/PathFinder_autogen/mocs_compilation.cpp",
+  "file": "/home/eric/Projects/CGame/Core/PathFinding/PathFinder_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core/PathFinding",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/PathFinding -I/home/eric/Projects/CGame/Core/PathFinding/PathFinder_autogen/include -I/home/eric/Projects/CGame/Core/PathFinding/PathFinder -I/home/eric/Projects/CGame/Core/PathFinding/.. -g -std=gnu++11 -o CMakeFiles/PathFinder.dir/pathfinder.cpp.o -c /home/eric/Projects/CGame/Core/PathFinding/pathfinder.cpp",
   "file": "/home/eric/Projects/CGame/Core/PathFinding/pathfinder.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/Core/PerlinNoise",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o -c /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/PerlinNoise -I/home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise_autogen/include -g -std=gnu++11 -o CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.o -c /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise_autogen/mocs_compilation.cpp",
+  "file": "/home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/Core/PerlinNoise",
+  "command": "/usr/bin/c++  -I/home/eric/Projects/CGame/Core/PerlinNoise -I/home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise_autogen/include -g -std=gnu++11 -o CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o -c /home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp",
   "file": "/home/eric/Projects/CGame/Core/PerlinNoise/PerlinNoise.cpp"
 },
 {
@@ -83,6 +108,11 @@
   "directory": "/home/eric/Projects/CGame/GUI",
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/eric/Projects/CGame/GUI -I/home/eric/Projects/CGame/GUI/GameGUI_autogen/include -I/home/eric/Projects/CGame/GUI/GameGUI -I/home/eric/Projects/CGame/GUI/../Core -I/home/eric/Projects/CGame/GUI/GameGUITest -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtGui -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGLWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGL -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameGUI.dir/mapdisplay.cpp.o -c /home/eric/Projects/CGame/GUI/mapdisplay.cpp",
   "file": "/home/eric/Projects/CGame/GUI/mapdisplay.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/GUI",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/eric/Projects/CGame/GUI -I/home/eric/Projects/CGame/GUI/GameGUI_autogen/include -I/home/eric/Projects/CGame/GUI/GameGUI -I/home/eric/Projects/CGame/GUI/../Core -I/home/eric/Projects/CGame/GUI/GameGUITest -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtGui -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGLWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGL -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameGUI.dir/gameui.cpp.o -c /home/eric/Projects/CGame/GUI/gameui.cpp",
+  "file": "/home/eric/Projects/CGame/GUI/gameui.cpp"
 },
 {
   "directory": "/home/eric/Projects/CGame/GUI",
@@ -103,5 +133,10 @@
   "directory": "/home/eric/Projects/CGame/GUI",
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/eric/Projects/CGame/GUI -I/home/eric/Projects/CGame/GUI/GameGUITest_autogen/include -I/home/eric/Projects/CGame/GUI/GameGUI -I/home/eric/Projects/CGame/GUI/../Core -I/home/eric/Projects/CGame/GUI/GameGUITest -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtGui -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGLWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGL -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameGUITest.dir/mapdisplay.cpp.o -c /home/eric/Projects/CGame/GUI/mapdisplay.cpp",
   "file": "/home/eric/Projects/CGame/GUI/mapdisplay.cpp"
+},
+{
+  "directory": "/home/eric/Projects/CGame/GUI",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/eric/Projects/CGame/GUI -I/home/eric/Projects/CGame/GUI/GameGUITest_autogen/include -I/home/eric/Projects/CGame/GUI/GameGUI -I/home/eric/Projects/CGame/GUI/../Core -I/home/eric/Projects/CGame/GUI/GameGUITest -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtCore -isystem /usr/lib/QT/6.2.2/gcc_64/mkspecs/linux-g++ -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtGui -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGLWidgets -isystem /usr/lib/QT/6.2.2/gcc_64/include/QtOpenGL -g -fPIC -pthread -std=gnu++17 -o CMakeFiles/GameGUITest.dir/gameui.cpp.o -c /home/eric/Projects/CGame/GUI/gameui.cpp",
+  "file": "/home/eric/Projects/CGame/GUI/gameui.cpp"
 }
 ]

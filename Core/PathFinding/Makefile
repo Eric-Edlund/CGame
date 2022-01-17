@@ -130,6 +130,44 @@ PathFinder/fast:
 	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/PathFinding/CMakeFiles/PathFinder.dir/build.make Core/PathFinding/CMakeFiles/PathFinder.dir/build
 .PHONY : PathFinder/fast
 
+# Convenience name for target.
+Core/PathFinding/CMakeFiles/PathFinder_autogen.dir/rule:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Core/PathFinding/CMakeFiles/PathFinder_autogen.dir/rule
+.PHONY : Core/PathFinding/CMakeFiles/PathFinder_autogen.dir/rule
+
+# Convenience name for target.
+PathFinder_autogen: Core/PathFinding/CMakeFiles/PathFinder_autogen.dir/rule
+.PHONY : PathFinder_autogen
+
+# fast build rule for target.
+PathFinder_autogen/fast:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/PathFinding/CMakeFiles/PathFinder_autogen.dir/build.make Core/PathFinding/CMakeFiles/PathFinder_autogen.dir/build
+.PHONY : PathFinder_autogen/fast
+
+PathFinder_autogen/mocs_compilation.o: PathFinder_autogen/mocs_compilation.cpp.o
+.PHONY : PathFinder_autogen/mocs_compilation.o
+
+# target to build an object file
+PathFinder_autogen/mocs_compilation.cpp.o:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/PathFinding/CMakeFiles/PathFinder.dir/build.make Core/PathFinding/CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.o
+.PHONY : PathFinder_autogen/mocs_compilation.cpp.o
+
+PathFinder_autogen/mocs_compilation.i: PathFinder_autogen/mocs_compilation.cpp.i
+.PHONY : PathFinder_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+PathFinder_autogen/mocs_compilation.cpp.i:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/PathFinding/CMakeFiles/PathFinder.dir/build.make Core/PathFinding/CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.i
+.PHONY : PathFinder_autogen/mocs_compilation.cpp.i
+
+PathFinder_autogen/mocs_compilation.s: PathFinder_autogen/mocs_compilation.cpp.s
+.PHONY : PathFinder_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+PathFinder_autogen/mocs_compilation.cpp.s:
+	cd /home/eric/Projects/CGame && $(MAKE) $(MAKESILENT) -f Core/PathFinding/CMakeFiles/PathFinder.dir/build.make Core/PathFinding/CMakeFiles/PathFinder.dir/PathFinder_autogen/mocs_compilation.cpp.s
+.PHONY : PathFinder_autogen/mocs_compilation.cpp.s
+
 pathfinder.o: pathfinder.cpp.o
 .PHONY : pathfinder.o
 
@@ -162,7 +200,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... PathFinder_autogen"
 	@echo "... PathFinder"
+	@echo "... PathFinder_autogen/mocs_compilation.o"
+	@echo "... PathFinder_autogen/mocs_compilation.i"
+	@echo "... PathFinder_autogen/mocs_compilation.s"
 	@echo "... pathfinder.o"
 	@echo "... pathfinder.i"
 	@echo "... pathfinder.s"

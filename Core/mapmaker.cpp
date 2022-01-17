@@ -1,7 +1,8 @@
 #include "mapmaker.h"
-#include "PerlinNoise/PerlinNoise.h"
+#include "PerlinNoise.h"
 #include <vector>
 #include "geometry.h"
+#include <iostream>
 
 using namespace std;
 
@@ -11,11 +12,53 @@ MapMaker::MapMaker()//makes maps
 
 }
 
-Map* MapMaker::make(int seed){
-    Map* map = new Map();
+MapMaker::MapMaker(Map* m)//makes maps
+{
+    assignMap(m);
+
+}
+
+void MapMaker::setWidth(int w){
+    if(w > 0 && w != width){
+        width = w;
+        emit widthChanged(w);
+    }
+
+}
+
+void MapMaker::setHeight(int h){
+    if(h > 0 && h != height){
+        height = h;
+        emit heightChanged(h);
+    }
+}
+
+void MapMaker::updateWidth(int w){
+    if(w > 0 && w != width){
+        width = w;
+        make();
+        emit widthChanged(w);
+    }
+
+}
+
+void MapMaker::updateHeight(int h){
+    if(h > 0 && h != height){
+        height = h;
+        make();
+        emit heightChanged(h);
+    }
+}
+
+void MapMaker::make(){
+
+    emit startBuilding();
+
+    map->tiles.clear();
+
     PerlinNoise noise(seed);
-    int w = (int) dimensions.width();//make sure > 0;
-    int h = (int) dimensions.height();
+    int w = width; //(int) dimensions.width();//make sure > 0;
+    int h = height; //(int) dimensions.height();
 
     vector<vector<Point*>> points = vector<vector<Point*>>();
 
@@ -85,5 +128,13 @@ Map* MapMaker::make(int seed){
     }
 
 
-    return map;
+    emit doneBuilding();
+
 }
+
+
+
+void MapMaker::assignMap(Map* m){
+    this->map = m;
+}
+

@@ -1,9 +1,26 @@
+cmake_minimum_required(VERSION 3.5)
+
 project(GameCore LANGUAGES CXX)
+
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Core REQUIRED)
+find_package(Qt6 COMPONENTS Core REQUIRED)
 
 add_executable(GameCoreTest main.cpp)
 
 #direct dependancy
-target_link_libraries(GameCoreTest GameCore)
+target_link_libraries(GameCoreTest
+GameCore
+Qt6::Core
+)
 
 add_library(GameCore STATIC
     point.h point.cpp
@@ -19,6 +36,8 @@ add_library(GameCore STATIC
     tile.h tile.cpp
     utilities.cpp
     utilities.h
+    gamebuilder.h
+    gamebuilder.cpp
 
     )
 
@@ -32,6 +51,8 @@ include_directories(GameCore
 target_link_libraries(GameCore PRIVATE
     PathFinder
     PerlinNoise
+    Qt6::Core
     )
+
 
 

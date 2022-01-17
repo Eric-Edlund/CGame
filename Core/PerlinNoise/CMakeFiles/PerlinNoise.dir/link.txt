@@ -1,2 +1,2 @@
-/usr/bin/ar qc libPerlinNoise.a CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o
+/usr/bin/ar qc libPerlinNoise.a CMakeFiles/PerlinNoise.dir/PerlinNoise_autogen/mocs_compilation.cpp.o CMakeFiles/PerlinNoise.dir/PerlinNoise.cpp.o
 /usr/bin/ranlib libPerlinNoise.a

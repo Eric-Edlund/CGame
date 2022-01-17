@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "GameGUI_autogen"
   "CMakeFiles/GameGUI.dir/GameGUI_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/GameGUI.dir/GameGUI_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/GameGUI.dir/gameui.cpp.o"
+  "CMakeFiles/GameGUI.dir/gameui.cpp.o.d"
   "CMakeFiles/GameGUI.dir/mainwindow.cpp.o"
   "CMakeFiles/GameGUI.dir/mainwindow.cpp.o.d"
   "CMakeFiles/GameGUI.dir/mapdisplay.cpp.o"
