@@ -6,3 +6,7 @@ GameUI::GameUI(QWidget* parent)
 {
 
 }
+
+void GameUI::setGame(Game* game){
+
+}
