@@ -3,6 +3,8 @@
 
 
 void GameBuilder::buildGameFromScratch(){
+    emit startedBuilding();
+
     //troubleshooting guide:
     //1. Make sure there's a mapMaker assigned
     //2.
@@ -12,8 +14,11 @@ void GameBuilder::buildGameFromScratch(){
 
     //Only single player for now
     target->numPlayers = 1;
-
+    emit buildPercentProgress(100); //periodically update percent of build complete
+    emit gameReady(target);
 }
 
 
 //emit gameReady(target);
+
+

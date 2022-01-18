@@ -21,8 +21,17 @@ public:
 
 private slots:
     void on_GameWindow_aboutToCompose();
+
+    //The Main window has 3 pages, the start page, the build new world page and the playing-the-game page
     void switchToNewWorldPage();
     void switchToStartPage();
+    void switchToGamePage();
+
+    void playBuiltWorld(); //When the "Play" button is hit on the game builder page
+    void gameStartedBuilding();//sloppy fix, called by GameBuilder to change button visibility
+    void gameDoneBuilding();//another stupid sloppy fix because the GameBuilder class can't emit a signal to set button visibility
+    void resetBuildWorldPage();//after the world is build, reset the menu so it can make a new world.
+
 
 private:
     Ui::MainWindow *ui;
