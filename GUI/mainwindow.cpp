@@ -6,6 +6,10 @@
 #include <QObject>
 #include <QStackedLayout>
 #include "gamebuilder.h"
+#include "gameui.h"
+#include "game.h"
+#include "map.h"
+#include <QGridLayout>
 
 
 #define startPage 0
@@ -19,7 +23,6 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
-
     ui->setupUi(this);
     ui->stackedWidget->setCurrentIndex(startPage);
     ui->PlayBuiltWorldButton->setVisible(false);
@@ -30,6 +33,12 @@ MainWindow::MainWindow(QWidget *parent)
     QObject::connect(ui->BackToStartButton, &QPushButton::clicked, this, &MainWindow::switchToStartPage);
     QObject::connect(ui->BackToStartButton, &QPushButton::clicked, this, &MainWindow::resetBuildWorldPage);
     QObject::connect(gameBuilder, &GameBuilder::buildPercentProgress, ui->gameBuildProgressBar, &QProgressBar::setValue);
+
+    //gameUI->setParent(ui->GamePage);
+    ui->GamePage->layout()->addWidget(gameUI);
+    ui->GamePage->update();
+
+
 
     //World Build Menu
     //the two size sliders to the mapMaker
@@ -56,7 +65,7 @@ MainWindow::MainWindow(QWidget *parent)
     //plug it into the loading bar and play button and generate button
     QObject::connect(gameBuilder, &GameBuilder::startedBuilding, this, &MainWindow::gameStartedBuilding);
     QObject::connect(gameBuilder, &GameBuilder::gameReady, this, &MainWindow::gameDoneBuilding);
-    QObject::connect(gameBuilder, &GameBuilder::gameReady, ui->gameUI, &GameUI::setGame);
+    QObject::connect(gameBuilder, &GameBuilder::gameReady, gameUI, &GameUI::setGame);
 
     //play button calls this.playBuildWorld
     QObject::connect(ui->PlayBuiltWorldButton, &QPushButton::clicked, this, &MainWindow::playBuiltWorld);
@@ -70,16 +79,10 @@ MainWindow::~MainWindow()
 }
 
 
-void MainWindow::on_GameWindow_aboutToCompose()
-{
 
-}
+void MainWindow::playGame(Game* g){
+    gameUI->setGame(g);
 
-void MainWindow::setWorld(Map* m){
-    ui->GameWindow->setMap(m);
-    //ui->GameWindow->setFocus();
-    ui->GameWindow->setViewBox(m->getBounds());
-    ui->GameWindow->update();
 }
 
 void MainWindow::switchToNewWorldPage(){

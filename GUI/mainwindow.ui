@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>994</width>
-    <height>641</height>
+    <width>671</width>
+    <height>482</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -282,7 +282,7 @@
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="InGamePage">
+      <widget class="QWidget" name="GamePage">
        <layout class="QGridLayout" name="gridLayout_3">
         <property name="leftMargin">
          <number>0</number>
@@ -296,43 +296,6 @@
         <property name="bottomMargin">
          <number>0</number>
         </property>
-        <item row="0" column="0">
-         <widget class="GameUI" name="gameUI">
-          <property name="currentIndex">
-           <number>0</number>
-          </property>
-          <widget class="QWidget" name="MapLayer">
-           <layout class="QGridLayout" name="gridLayout_2">
-            <property name="leftMargin">
-             <number>0</number>
-            </property>
-            <property name="topMargin">
-             <number>0</number>
-            </property>
-            <property name="rightMargin">
-             <number>0</number>
-            </property>
-            <property name="bottomMargin">
-             <number>0</number>
-            </property>
-            <property name="spacing">
-             <number>0</number>
-            </property>
-            <item row="0" column="0">
-             <widget class="MapDisplay" name="GameWindow">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </widget>
-          <widget class="QWidget" name="UILayer"/>
-         </widget>
-        </item>
        </layout>
       </widget>
      </widget>
@@ -345,12 +308,6 @@
    <class>MapDisplay</class>
    <extends>QOpenGLWidget</extends>
    <header>mapdisplay.h</header>
-  </customwidget>
-  <customwidget>
-   <class>GameUI</class>
-   <extends>QStackedWidget</extends>
-   <header>gameui.h</header>
-   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources/>

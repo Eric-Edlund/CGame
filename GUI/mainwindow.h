@@ -5,6 +5,8 @@
 #include "map.h"
 #include "mapmaker.h"
 #include "gamebuilder.h"
+#include "game.h"
+#include "gameui.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -16,11 +18,10 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
-    void setWorld(Map* m);
+    void playGame(Game* g);
     ~MainWindow();
 
 private slots:
-    void on_GameWindow_aboutToCompose();
 
     //The Main window has 3 pages, the start page, the build new world page and the playing-the-game page
     void switchToNewWorldPage();
@@ -38,5 +39,6 @@ private:
     Map* generatedMap = new Map(); //The map in the map maker page
     MapMaker* mapMaker = new MapMaker(generatedMap);
     GameBuilder* gameBuilder = new GameBuilder();
+    GameUI* gameUI = new GameUI();
 };
 #endif // MAINWINDOW_H

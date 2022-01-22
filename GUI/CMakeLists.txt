@@ -18,7 +18,6 @@ find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets OpenGLWidgets REQUIRED)
 find_package(Qt6 COMPONENTS Widgets OpenGLWidgets REQUIRED)
 
 
-
 set(SOURCES
     mainwindow.cpp
     mainwindow.h
@@ -27,6 +26,7 @@ set(SOURCES
     mapdisplay.cpp
     gameui.h
     gameui.cpp
+    gameui.ui
 
 )
 

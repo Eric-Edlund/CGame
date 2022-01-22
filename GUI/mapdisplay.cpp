@@ -17,6 +17,7 @@
 #define In std::cout << "In" << std::endl;
 #define Out std::cout << "Out" << std::endl;
 #define Flag std::cout << "Flag" << std::endl;
+#define flag std::cout << "F" << std::endl;
 
 
 MapDisplay::MapDisplay(QWidget* parent)
@@ -174,8 +175,11 @@ void MapDisplay::paintGL(){
 void MapDisplay::setMap(Map* m){
     if(m == map) return;
     map = m;
+
     updateMapCache();
+
     update();
+
 
 }
 
