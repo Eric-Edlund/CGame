@@ -208,6 +208,7 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
+		"/home/eric/Projects/CGame/GUI/GameGUI_autogen/include/ui_gameui.h",
 		"/home/eric/Projects/CGame/GUI/GameGUI_autogen/include/ui_mainwindow.h"
 	],
 	"MULTI_CONFIG" : false,
@@ -229,6 +230,7 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
+		"/home/eric/Projects/CGame/GUI/GameGUI_autogen/include/ui_gameui.h",
 		"/home/eric/Projects/CGame/GUI/GameGUI_autogen/include/ui_mainwindow.h"
 	],
 	"UIC_UI_FILES" : [],

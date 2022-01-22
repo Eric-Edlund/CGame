@@ -19,6 +19,7 @@ public:
     double ptDensity = 1; //(1 pt per square unit)
     double percentLand = 0.5;
     double scale = 1;
+    Map* map;//don't call directly unless you're game builder
 
 public slots:
     void setWidth(int w); //set just changes the var, requires map rebuild to apply
@@ -35,7 +36,7 @@ signals:
     void heightChanged(int w);
 
 private:
-    Map* map;
+
 };
 
 #endif // MAPMAKER_H
